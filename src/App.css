@@ -2,6 +2,7 @@
   color: white;
   font-size: 22px;
   font-family: 'Javanese Text';
+  text-align: left;
  }
 
  .email-input:focus {

@@ -8,6 +8,7 @@ import ThirdImage from '../assets/images/love.jpg'
 import { BiLogoFacebook } from 'react-icons/bi'
 import { AiOutlineInstagram } from 'react-icons/ai'
 import { RiTwitterXFill } from 'react-icons/ri'
+import NavLinks from '../components/NavLinks'
 
 const HomePage = () => {
   return (
@@ -15,14 +16,19 @@ const HomePage = () => {
 
       <div style={{ backgroundImage: `url(${BackgroundImage})` }}
         className="bg-cover bg-center h-[40rem] w-full">
-        <p>Are you okay</p>
+        <div className='pt-20'>
+          <NavLinks />
+        </div>
+
       </div>
       <div className=" h-[30rem] w-full flex flex-col justify-center items-center bg-black">
         <div><img src={HomeIcon} /></div>
-        <p className=' text-center text-white mt-10 px-10'>
-          Hey there! I'm BJ Baringo, and I'm thrilled to welcome you to my Portfolio. I'm a passionate storyteller, a lifelong explorer of ideas, and your host on this audio journey. I've always been captivated by the power of the spoken word and the magic of a well-told story.
-          Whether it's diving into fascinating conversations with thought leaders, sharing personal anecdotes, or exploring niche interests, I'm here to make your listening experience enriching and enjoyable.
-        </p>
+        <div className='flex justify-center items-center'> 
+          <p className=' text-center text-white mt-10 px-10 w-[70%] leading-8'>
+            Hey there! I'm BJ Baringo, and I'm thrilled to welcome you to my Portfolio. I'm a passionate storyteller, a lifelong explorer of ideas, and your host on this audio journey. I've always been captivated by the power of the spoken word and the magic of a well-told story.
+            Whether it's diving into fascinating conversations with thought leaders, sharing personal anecdotes, or exploring niche interests, I'm here to make your listening experience enriching and enjoyable.
+          </p>
+        </div>
       </div>
       <div className=" text-white bg-black text-[32px] font-normal font-['Poppins'] px-10">Listen to my latest podcasts</div>
       <div className='flex max-sm:flex-col justify-between items-center bg-black py-10 px-10'>
@@ -46,7 +52,7 @@ const HomePage = () => {
         <div className=" text-center text-white text-[32px] font-normal font-['Poppins'] ">Sign up for my Newsletter</div>
         <div className=" text-center text-white text-lg font-normal font-['Poppins'] mt-5">Sign up here to receive vital weekly messages directly from me.</div>
         <form className='mt-20  flex flex-col justify-center items-center w-full'>
-          <input type="text" className=' email-input text-white border-b-[1px] bg-black border-white w-1/2' placeholder="Email address" />
+          <input type="text" className=' email-input text-white border-b-[1px] bg-black border-white w-1/2  text-xl font-javanese-text text-center' placeholder="Email address" />
           <button className=" h-8 px-4 py-4 bg-white rounded-[32px] justify-start items-center gap-4 inline-flex mt-10">
             <div className="text-center text-black text-lg font-normal font-['Jacques Francois']">Sign up for my Newsletter</div>
           </button>
