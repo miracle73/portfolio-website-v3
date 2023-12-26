@@ -13,9 +13,7 @@ import Youtube from '../assets/images/youtube.png'
 import Spotify from '../assets/images/spotify.png'
 import Google from '../assets/images/google-podcast.png'
 import SoundCloud from '../assets/images/soundcard.png'
-import { BiLogoFacebook } from 'react-icons/bi'
-import { AiOutlineInstagram } from 'react-icons/ai'
-import { RiTwitterXFill } from 'react-icons/ri'
+import Footer from '../components/Footer'
 
 const Podcast = () => {
     const [count, setCount] = useState(0);
@@ -183,23 +181,8 @@ const Podcast = () => {
                     <img className="w-10 h-10" src={SoundCloud} />
                 </div>
             </div>
-            <div className='flex flex-col justify-center items-center py-20 bg-black border-t-[1px] border-white'>
-                <div className='inline-flex justify-center items-center w-1/3 gap-4 text-white'>
-                    <div>
-                        <BiLogoFacebook />
-                    </div>
-                    <div>
-                        < AiOutlineInstagram />
-                    </div>
-
-                    {/* < FaXTwitter /> */}
-                    <div>
-                        < RiTwitterXFill />
-                    </div>
-
-
-                </div>
-                <div className="text-white text-sm text-center  font-normal font-['Poppins'] mt-5">© 2023 BJ Baringo</div>
+            <div className='flex flex-col justify-center items-center bg-black border-t-[1px] border-white'>
+             <Footer />
             </div>
 
             

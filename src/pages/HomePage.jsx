@@ -5,10 +5,8 @@ import HomeIcon from '../assets/images/home-icon.png'
 import FirstImage from '../assets/images/money.jpg'
 import SecondImage from '../assets/images/problem-solving.jpg'
 import ThirdImage from '../assets/images/love.jpg'
-import { BiLogoFacebook } from 'react-icons/bi'
-import { AiOutlineInstagram } from 'react-icons/ai'
-import { RiTwitterXFill } from 'react-icons/ri'
 import NavLinks from '../components/NavLinks'
+import Footer from '../components/Footer'
 
 const HomePage = () => {
   return (
@@ -57,25 +55,7 @@ const HomePage = () => {
             <div className="text-center text-black text-lg font-normal font-['Jacques Francois']">Sign up for my Newsletter</div>
           </button>
         </form>
-        <div className='flex justify-center items-center mt-20'>
-          <div className='inline-flex justify-center items-center w-1/3 gap-4 text-white'>
-            <div>
-              <BiLogoFacebook />
-            </div>
-            <div>
-              < AiOutlineInstagram />
-            </div>
-
-            {/* < FaXTwitter /> */}
-            <div>
-              < RiTwitterXFill />
-            </div>
-
-
-          </div>
-        </div>
-
-        <div className="text-white text-sm text-center  font-normal font-['Poppins'] mt-5">© 2023 BJ Baringo</div>
+        <Footer />
 
 
       </div>
