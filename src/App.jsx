@@ -6,6 +6,9 @@ import './App.css'
 import HomePage from './pages/HomePage'
 import Podcast from './pages/Podcast'
 import Contact from './pages/Contact';
+import Newsletter from './pages/Newsletter';
+import Services from './pages/Services';
+import EventHosting from './pages/EventHosting';
 
 
 function App() {
@@ -18,7 +21,9 @@ function App() {
        <Route path="/podcast" element={<Podcast />} />
        <Route path="/" element={<HomePage />} />
        <Route path="/contact" element={<Contact />} />
-
+       <Route path="/newsletter" element={<Newsletter />} />
+       <Route path="/services" element={<Services />} />
+       <Route path="/eventhosting" element={<EventHosting />} />
      </Routes>
    </Router>
     </>
