@@ -9,6 +9,9 @@ import Contact from './pages/Contact';
 import Newsletter from './pages/Newsletter';
 import Services from './pages/Services';
 import EventHosting from './pages/EventHosting';
+import Marketing from './pages/Marketing';
+import ContentCreation from './pages/ContentCreation';
+import MediaProduction from './pages/MediaProduction';
 
 
 function App() {
@@ -23,7 +26,10 @@ function App() {
        <Route path="/contact" element={<Contact />} />
        <Route path="/newsletter" element={<Newsletter />} />
        <Route path="/services" element={<Services />} />
-       <Route path="/eventhosting" element={<EventHosting />} />
+       <Route path="/events" element={<EventHosting />} />
+       <Route path="/marketing" element={<Marketing />} />
+       <Route path="/content" element={<ContentCreation />} />
+       <Route path="/media" element={<MediaProduction />} />
      </Routes>
    </Router>
     </>

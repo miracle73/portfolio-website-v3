@@ -4,6 +4,11 @@ import NavLinks from '../components/NavLinks'
 import firstImage from '../assets/images/eventHosting.png'
 import secondImage from '../assets/images/eventsHosting1.png'
 import thirdImage from '../assets/images/eventsHosting2.png'
+import fourthImage from '../assets/images/eventHosting3.png'
+import fifthImage from '../assets/images/eventHosting4.png'
+import sixthImage from '../assets/images/eventHosting5.png'
+import seventhImage from '../assets/images/eventHosting6.png'
+import eighthImage from '../assets/images/eventHosting7.png'
 import Footer from '../components/Footer'
 
 const EventHosting = () => {
@@ -29,14 +34,31 @@ const EventHosting = () => {
 
                 </div>
                 <div className=" text-white text-[32px] font-normal font-['Javanese Text'] px-16 mt-5">Previous works</div>
-                <div className='flex items-start justify-between px-16 mt-5 '>
-                    <div className='w-[48%] '>
-                        <img src={secondImage} className='mt-5' />
-                        <div className=" text-white text-[16px] font-normal font-['Javanese Text'] mt-5">Wizkid Concert</div>
+                <div className='flex items-start justify-between px-16 mt-5'>
+                    <div className='w-[33.3%]'>
+                        <img src={secondImage} className='h-60 w-full object-cover' />
                     </div>
-                    <div className='w-[48%] '>
-                        <img src={thirdImage} className='mt-5' />
-                        <div className=" text-white text-[16px] font-normal font-['Javanese Text'] mt-5">Pulse Naija</div>
+                    <div className='w-[33.3%]'>
+                        <img src={thirdImage} className=' h-60 w-full object-cover' />
+                    </div>
+                    <div className='w-[33.3%]'>
+                        <img src={fourthImage} className=' h-60 w-full object-cover' />
+                    </div>
+                </div>
+                <div className='flex items-start justify-between px-16'>
+                    <div className='w-[100%] '>
+                        <img src={fifthImage} className=' h-60 w-full object-cover' />
+                    </div>
+                </div>
+                <div className='flex items-start justify-between px-16'>
+                    <div className='w-[33.3%] '>
+                        <img src={sixthImage} className='h-60 w-full object-cover' />
+                    </div>
+                    <div className='w-[33.3%] '>
+                        <img src={seventhImage} className='h-60 w-full object-cover' />
+                    </div>
+                    <div className='w-[33.3%] '>
+                        <img src={eighthImage} className='h-60 w-full object-cover' />
                     </div>
                 </div>
                 <div className='flex justify-center items-center mt-16'>
