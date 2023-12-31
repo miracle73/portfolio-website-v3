@@ -8,3 +8,18 @@
  .email-input:focus {
   outline: none;
  }
+
+ .truncate-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* adjust as needed */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (max-width: 600px) {
+  .text-container {
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+  }
+ }
