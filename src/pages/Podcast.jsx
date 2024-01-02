@@ -53,7 +53,7 @@ const Podcast = () => {
                 </div>
 
             </div>
-            <div className=" h-[65rem]  w-full flex flex-col pt-10 bg-black">
+            <div className=" h-fit pb-10  w-full flex flex-col pt-10 bg-black">
                 <div className='flex justify-center items-center max-md:p-3'>
                     <img src={HomeIcon} className=' max-md:w-18 object-cover  max-sm:w-14 ' />
                 </div>
@@ -94,8 +94,8 @@ const Podcast = () => {
                         </div>
                     </div>
                 </div>
-                <p className=" text-white text-[32px] max-lg:text-2xl max-md:text-xl font-normal font-['Poppins'] mt-20 px-10">Relationships</p>
-                <div className='flex items-center justify-between relative px-7'>
+                <p className=" text-white text-[32px] max-lg:text-2xl max-md:text-xl font-normal font-['Poppins'] mt-10 px-10">Relationships</p>
+                <div className='flex items-center justify-between relative px-7 '>
                     <div className='w-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide' >
                         <div id="sliderItem" className='w-[30%] max-lg:w-[35%] max-sm:w-[55%] max-xsm:w-[65%] relative overflow-hidden shadow-md pb-2 rounded-md hover:cursor-pointer inline-block hover:scale-105 ease-in-out duration-300 mx-3'>
                             <div className=" bg-cover  h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${FourthImage})` }}>
@@ -177,8 +177,8 @@ const Podcast = () => {
                     </button>
                 </div>}
             </div>
-            <div className=' py-20 max-md:py-14 max-sm:py-10 bg-black flex flex-col justify-center items-center '>
-                <div className="text-center text-white text-[16px] max-lg:text-sm max-md:text-xs w-[50%] max-md:w-[70%] max-sm:w-[100%] font-normal font-['Poppins'] ">Subscribe and listen on every major platform<br />Our podcast is available on a growing number of platforms. Listen on your preferred app to get the best experience.</div>
+            <div className='py-20 max-md:py-14 max-sm:py-10 bg-black flex flex-col justify-center items-center '>
+                <div className="text-center text-white text-[16px] max-lg:text-sm  w-[50%] max-md:w-[70%] max-sm:w-[90%] font-normal font-['Poppins'] ">Subscribe and listen on every major platform<br />Our podcast is available on a growing number of platforms. Listen on your preferred app to get the best experience.</div>
                 <div className='flex flex-wrap justify-around items-center w-[40%] max-md:w-[70%] max-sm:w-[100%]  mt-10'>
 
                     <img className="w-10 h-10" src={Apple} />
