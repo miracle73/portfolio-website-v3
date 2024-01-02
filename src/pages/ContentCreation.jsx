@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import BackgroundImage from '../assets/images/background-image.jpg'
 import NavLinks from '../components/NavLinks'
 import firstImage from '../assets/images/content2.png'
@@ -9,15 +9,20 @@ import fourthIcon from '../assets/images/twitter2.png'
 import fifthIcon from '../assets/images/facebook.png'
 import sixthIcon from '../assets/images/email3.png'
 import Footer from '../components/Footer'
+import MobileNav from '../components/MobileNav'
 
 
 const ContentCreation = () => {
+    const [nav, setNav] = useState(false)
     return (
         <div className='min-h-screen w-full p-0'>
+            {nav && <div className='w-full h-full flex items-center justify-center fixed'>
+                <MobileNav setNav={setNav}  />
+            </div>} 
             <div style={{ backgroundImage: `url(${BackgroundImage})` }}
                 className="bg-cover bg-center h-[15rem] w-full">
-                <div className='pt-20'>
-                    <NavLinks />
+                <div className='lg:pt-10 max-lg:pt-14 max-md:pt-5 max-md:flex max-md:items-center max-md:justify-end max-md:pr-10 '>
+                    <NavLinks setNav={setNav}  />
                 </div>
 
             </div>

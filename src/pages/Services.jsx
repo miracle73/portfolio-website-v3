@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import '../App.css'
 import BackgroundImage from '../assets/images/background-image.jpg'
 import NavLinks from '../components/NavLinks'
@@ -12,9 +12,11 @@ import thirdTestimonial from '../assets/images/thirdTestimonial.png'
 import fourthTestimonial from '../assets/images/fourthTestimonial.png'
 import Footer from '../components/Footer'
 import { Link } from 'react-router-dom'
-import { FaStar } from "react-icons/fa";
+import { FaStar } from "react-icons/fa"
+import MobileNav from '../components/MobileNav'
 
 const Services = () => {
+    const [nav, setNav] = useState(false)
     useEffect(() => {
         let lastScrollX;
         // if (process.browser) {
@@ -33,10 +35,13 @@ const Services = () => {
     }, []);
     return (
         <div className='min-h-screen w-full p-0'>
+            {nav && <div className='w-full h-full flex items-center justify-center fixed'>
+                <MobileNav setNav={setNav}  />
+            </div>} 
             <div style={{ backgroundImage: `url(${BackgroundImage})` }}
                 className="bg-cover bg-center h-[15rem] w-full">
                 <div className='lg:pt-10 max-lg:pt-14 max-md:pt-5 max-md:flex max-md:items-center max-md:justify-end max-md:pr-10'>
-                    <NavLinks />
+                    <NavLinks setNav={setNav}/>
                 </div>
 
             </div>

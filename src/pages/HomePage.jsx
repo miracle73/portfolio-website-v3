@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../App.css'
 import BackgroundImage from '../assets/images/background-image.jpg'
 import HomeIcon from '../assets/images/home-icon.png'
@@ -7,24 +7,31 @@ import SecondImage from '../assets/images/problem-solving.jpg'
 import ThirdImage from '../assets/images/love.jpg'
 import NavLinks from '../components/NavLinks'
 import Footer from '../components/Footer'
+import MobileNav from '../components/MobileNav'
+
 
 const HomePage = () => {
+  const [nav, setNav] = useState(false)
   return (
-    <div className='min-h-screen w-full p-0'>
-
+    <div className='min-h-screen w-full p-0 relative'>
+      {nav && <div className='w-full h-full flex items-center justify-between fixed'>
+        
+        <MobileNav setNav={setNav} />
+      </div>}
       <div style={{ backgroundImage: `url(${BackgroundImage})` }}
         className="bg-cover bg-center h-[40rem] w-full max-md:flex max-md:flex-col">
-        <div className='lg:pt-20 max-lg:pt-32 max-md:pt-5 max-md:flex max-md:items-center max-md:justify-end max-md:pr-10 '>
-          <NavLinks />
+
+        <div className='lg:pt-20 max-lg:pt-16 max-md:pt-5 max-md:flex max-md:items-center max-md:justify-end max-md:pr-10 '>
+          <NavLinks setNav={setNav} />
         </div>
         <div className='flex items-end justify-center md:hidden flex-1 pb-5'>
-        <div className=" text-white text-[32px] font-normal font-['Javanese Text'] text-center">BJ Baringo</div>
+          <div className=" text-white text-[32px] font-normal font-['Javanese Text'] text-center">BJ Baringo</div>
         </div>
 
       </div>
       <div className=" h-[30rem] w-full flex flex-col justify-center items-center bg-black max-md:pt-32 max-sm:pt-40">
-        <div><img src={HomeIcon}  className='max-md:w-14 max-md:h-14 max-sm:w-10 max-sm:h-10'/></div>
-        <div className='flex justify-center items-center'> 
+        <div><img src={HomeIcon} className='max-md:w-14 max-md:h-14 max-sm:w-10 max-sm:h-10' /></div>
+        <div className='flex justify-center items-center'>
           <p className=' text-center text-white mt-10 max-sm:mt-3 max-md:mt-5 px-10 w-[70%] max-sm:w-[100%] leading-8'>
             Hey there! I'm BJ Baringo, and I'm thrilled to welcome you to my Portfolio. I'm a passionate storyteller, a lifelong explorer of ideas, and your host on this audio journey. I've always been captivated by the power of the spoken word and the magic of a well-told story.
             Whether it's diving into fascinating conversations with thought leaders, sharing personal anecdotes, or exploring niche interests, I'm here to make your listening experience enriching and enjoyable.

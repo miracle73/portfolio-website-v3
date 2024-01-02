@@ -14,9 +14,11 @@ import Spotify from '../assets/images/spotify.png'
 import Google from '../assets/images/google-podcast.png'
 import SoundCloud from '../assets/images/soundcard.png'
 import Footer from '../components/Footer'
+import MobileNav from '../components/MobileNav'
 
 const Podcast = () => {
     const [count, setCount] = useState(0);
+    const [nav, setNav] = useState(false)
 
     const handleSeeMoreClick = () => {
         if (count < 5) {
@@ -41,10 +43,13 @@ const Podcast = () => {
     }, []);
     return (
         <div className='min-h-screen w-full p-0'>
+             {nav && <div className='w-full h-full flex items-center justify-center fixed'>
+                <MobileNav setNav={setNav}  />
+            </div>} 
             <div style={{ backgroundImage: `url(${BackgroundImage})` }}
                 className="bg-cover bg-center h-[15rem] w-full">
                 <div className='lg:pt-10 max-lg:pt-14 max-md:pt-5 max-md:flex max-md:items-center max-md:justify-end max-md:pr-10'>
-                    <NavLinks />
+                    <NavLinks setNav={setNav}/>
                 </div>
 
             </div>
