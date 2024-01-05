@@ -55,7 +55,7 @@ const Podcast = () => {
             </div>
             <div className=" h-fit pb-10  w-full flex flex-col pt-10 bg-black">
                 <div className='flex justify-center items-center max-md:p-3'>
-                    <img src={HomeIcon} className=' max-md:w-18 object-cover  max-sm:w-14 ' />
+                    <img src={HomeIcon} className=' max-md:w-20 object-cover max-lg:w-28  max-sm:w-14 ' />
                 </div>
                 <p className=" text-white text-[32px] max-lg:text-2xl max-md:text-xl font-normal font-['Poppins'] mt-10 px-10">Explore Our Podcasts</p>
                 <p className=" text-white text-lg max-lg:text-base max-md:text-sm font-normal font-['Poppins'] mt-5 px-10">Listen to our latest podcast </p>

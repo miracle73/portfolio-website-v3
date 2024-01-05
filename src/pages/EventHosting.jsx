@@ -29,7 +29,7 @@ const EventHosting = () => {
             <div className="  w-full flex flex-col pt-10 bg-black ">
                 <div className='flex items-start justify-between px-16 mt-10 '>
                     <div className=' w-full '>
-                        <div className=" text-white text-[32px] font-normal font-['Javanese Text']">Event Hosting</div>
+                        <div className=" text-white text-[32px]  max-sm:text-2xl font-normal font-['Javanese Text']">Event Hosting</div>
                         <img src={firstImage} className='mt-5 w-full' />
                         <div className=" text-white text-[16px] font-normal font-['Javanese Text'] mt-5">Elevate your event to the next level with our professional Event Host services.
                             With our expertise in orchestrating the event flow and fostering audience engagement, we guarantee a memorable event that leaves a lasting impression.
@@ -38,15 +38,15 @@ const EventHosting = () => {
                     </div>
 
                 </div>
-                <div className=" text-white text-[32px] font-normal font-['Javanese Text'] px-16 mt-5">Previous works</div>
-                <div className='flex items-start justify-between px-16 mt-5'>
-                    <div className='w-[33.3%]'>
+                <div className=" text-white text-[32px] max-sm:text-2xl font-normal font-['Javanese Text'] px-16 mt-10">Previous works</div>
+                <div className='flex items-start max-sm:flex-col justify-between px-16 mt-5'>
+                    <div className='w-[33.3%] max-sm:w-[100%] '>
                         <img src={secondImage} className='h-60 w-full object-cover' />
                     </div>
-                    <div className='w-[33.3%]'>
+                    <div className='w-[33.3%] max-sm:w-[100%] '>
                         <img src={thirdImage} className=' h-60 w-full object-cover' />
                     </div>
-                    <div className='w-[33.3%]'>
+                    <div className='w-[33.3%] max-sm:w-[100%]'>
                         <img src={fourthImage} className=' h-60 w-full object-cover' />
                     </div>
                 </div>
@@ -55,14 +55,14 @@ const EventHosting = () => {
                         <img src={fifthImage} className=' h-60 w-full object-cover' />
                     </div>
                 </div>
-                <div className='flex items-start justify-between px-16'>
-                    <div className='w-[33.3%] '>
+                <div className='flex items-start max-sm:flex-col justify-between px-16'>
+                    <div className='w-[33.3%] max-sm:w-[100%]'>
                         <img src={sixthImage} className='h-60 w-full object-cover' />
                     </div>
-                    <div className='w-[33.3%] '>
+                    <div className='w-[33.3%] max-sm:w-[100%]'>
                         <img src={seventhImage} className='h-60 w-full object-cover' />
                     </div>
-                    <div className='w-[33.3%] '>
+                    <div className='w-[33.3%] max-sm:w-[100%]'>
                         <img src={eighthImage} className='h-60 w-full object-cover' />
                     </div>
                 </div>
