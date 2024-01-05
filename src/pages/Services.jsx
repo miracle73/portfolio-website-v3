@@ -54,7 +54,7 @@ const Services = () => {
                         <div className="truncate-text text-white text-[16px] max-lg:text-base max-md:text-sm max-sm:text-xs font-normal font-['Javanese Text'] mt-5">Elevate your event to the next level with our professional Event Host services. With our expertise in orchestrating the event flow and fostering audience engagement, we guarantee a memorable event that leaves a lasting impression.</div>
                     </div>
                     <div className='w-[45%] '>
-                        <Link to="/" className=" text-white text-[24px] max-lg:text-xl max-md:text-lg max-sm:text-sm font-semibold font-['Javanese Text']">Content Creation</Link>
+                        <Link to="/content" className=" text-white text-[24px] max-lg:text-xl max-md:text-lg max-sm:text-sm font-semibold font-['Javanese Text']">Content Creation</Link>
                         <img src={secondImage} className='mt-5' />
                         <div className="truncate-text text-white text-[16px] max-lg:text-base max-md:text-sm max-sm:text-xs font-normal font-['Javanese Text'] mt-5">Need help with brainstorming and creating compelling content? We offer content strategy and scriptwriting services to keep your audience engaged.</div>
                     </div>
@@ -66,7 +66,7 @@ const Services = () => {
                         <div className="truncate-text text-white text-[16px] max-lg:text-base max-md:text-sm max-sm:text-xs font-normal font-['Javanese Text'] mt-5">Expand the reach of your business and services with our marketing and promotion services, including social media campaigns and audience growth strategies.</div>
                     </div>
                     <div className='w-[45%] '>
-                        <Link to="/" className=" text-white text-[24px] max-lg:text-xl max-md:text-lg max-sm:text-sm font-semibold font-['Javanese Text']">Media Production</Link>
+                        <Link to="/media" className=" text-white text-[24px] max-lg:text-xl max-md:text-lg max-sm:text-sm font-semibold font-['Javanese Text']">Media Production</Link>
                         <img src={fourthImage} className='mt-5' />
                         <div className="truncate-text text-white text-[16px] max-lg:text-base max-md:text-sm max-sm:text-xs font-normal font-['Javanese Text'] mt-5">Elevate the quality and impact of your services with our media production services. We provide all the required resources to give your business that unique brans that resonates with your target audience5</div>
                     </div>

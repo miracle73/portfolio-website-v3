@@ -25,38 +25,38 @@ const MediaProduction = () => {
 
             </div>
             <div className="  w-full flex flex-col pt-10 bg-black ">
-                <div className='flex items-start justify-between px-16 mt-10 '>
+                <div className='flex items-start justify-between px-16 max-lg:px-10 max-md:px-7 max-sm:px-4 mt-10 '>
                     <div className=' w-full '>
-                        <div className=" text-white text-[32px] font-normal font-['Javanese Text']">Media Production</div>
-                        <img src={firstImage} className='mt-5 w-full h-96 object-cover' />
-                        <div className=" text-white text-[20px] font-normal font-['Javanese Text'] mt-5">Elevate your event to the next level with our professional Event Host services.
+                        <div className=" text-white text-[32px] max-sm:text-2xl font-normal font-['Javanese Text']">Media Production</div>
+                        <img src={firstImage} className='mt-5 w-full h-96 max-lg:h-86 max-md:72 max-sm:h-64 object-cover' />
+                        <div className=" text-white text-[20px] max-sm:text-sm font-normal font-['Javanese Text'] mt-5">Elevate your event to the next level with our professional Event Host services.
                             With our expertise in orchestrating the event flow and fostering audience engagement, we guarantee a memorable event that leaves a lasting impression.</div>
 
                     </div>
 
                 </div>
-                <div className=" text-white text-[32px] font-normal font-['Javanese Text'] px-16 mt-40">Previous works</div>
-                <div className='flex items-start justify-between px-16 mt-5'>
+                <div className=" text-white text-[32px] max-sm:text-2xl font-normal font-['Javanese Text'] px-16 max-lg:px-10 max-md:px-7 max-sm:px-4 mt-40 max-lg:mt-32 max-md:mt-24 max-sm:scroll-mt-16">Previous works</div>
+                <div className='flex items-start justify-between px-16 max-lg:px-10 max-md:px-7 max-sm:px-4 mt-5'>
                     <div className='w-[50.0%] h-72 hover:cursor-pointer flex hover:bg-blend-multiply hover:bg-gray-500 items-end pb-2 hover:pb-4 justify-center' style={{ backgroundImage: `url(${secondImage})` }}>
-                    <div className=" text-white text-2xl font-normal font-['Javanese Text']">Wizkid Concert</div>
+                    <div className=" text-white text-2xl max-md:text-xl max-sm:text-lg font-normal font-['Javanese Text']">Wizkid Concert</div>
                     </div>
                     <div className='w-[50.0%] h-72 hover:cursor-pointer flex hover:bg-blend-multiply hover:bg-gray-500 items-end pb-2 hover:pb-4 justify-center'  style={{ backgroundImage: `url(${thirdImage})` }}>
-                    <div className=" text-white text-2xl font-normal font-['Javanese Text']">Pulse Naija</div>
+                    <div className=" text-white text-2xl max-md:text-xl max-sm:text-lg  font-normal font-['Javanese Text']">Pulse Naija</div>
                     </div>
                   
                 </div>
-                <div className='flex items-start justify-between px-16 mt-5'>
+                <div className='flex items-start justify-between px-16 max-lg:px-10 max-md:px-7 max-sm:px-4 mt-5'>
                     <div className='w-[50.0%] h-72 hover:cursor-pointer flex hover:bg-blend-multiply hover:bg-gray-500 items-end pb-2 hover:pb-4 justify-center' style={{ backgroundImage: `url(${fourthImage})` }}>
-                    <div className=" text-white text-2xl font-normal font-['Javanese Text']">Wizkid Concert</div>
+                    <div className=" text-white text-2xl max-md:text-xl max-sm:text-lg  font-normal font-['Javanese Text']">Wizkid Concert</div>
                     </div>
                     <div className='w-[50.0%] h-72 hover:cursor-pointer flex hover:bg-blend-multiply hover:bg-gray-500 items-end pb-2 hover:pb-4 justify-center'  style={{ backgroundImage: `url(${fifthImage})` }}>
-                    <div className=" text-white text-2xl font-normal font-['Javanese Text']">Pulse Naija</div>
+                    <div className=" text-white text-2xl max-md:text-xl max-sm:text-lg  font-normal font-['Javanese Text']">Pulse Naija</div>
                     </div>
                   
                 </div>
                 <div className='flex justify-center items-center mt-16'>
                     <button className=" h-8 px-4 py-4 bg-white rounded-[32px] justify-start items-center gap-4 inline-flex mt-10">
-                        <div className="text-center text-black text-lg font-normal font-['Jacques Francois']">Book now</div>
+                        <div className="text-center text-black text-lg max-md:text-base max-sm:text-xs font-normal font-['Jacques Francois']">Book now</div>
                     </button>
                 </div>
                 <div className=' mt-10'>
