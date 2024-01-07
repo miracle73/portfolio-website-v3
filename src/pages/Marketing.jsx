@@ -14,14 +14,15 @@ const Marketing = () => {
     const [nav, setNav] = useState(false)
     return (
         <div className='min-h-screen w-full p-0'>
-             {nav && <div className='w-full h-full flex items-center justify-center fixed'>
-                <MobileNav setNav={setNav}  />
-            </div>} 
+             
             <div style={{ backgroundImage: `url(${BackgroundImage})` }}
-                className="bg-cover bg-center h-[15rem] w-full">
-                <div className='lg:pt-10 max-lg:pt-14 max-md:pt-5 max-md:flex max-md:items-center max-md:justify-end max-md:pr-10 '>
+                className="bg-cover bg-center h-[15rem] w-full relative">
+                {nav && <div className='w-full h-full flex items-center justify-center absolute'>
+                    <MobileNav setNav={setNav} />
+                </div>}
+                {!nav && <div className='lg:pt-10 max-lg:pt-14 max-md:pt-5 max-md:flex max-md:items-center max-md:justify-end max-md:pr-10 '>
                     <NavLinks setNav={setNav} />
-                </div>
+                </div>}
 
             </div>
             <div className="  w-full flex flex-col pt-10 bg-black ">
@@ -29,11 +30,11 @@ const Marketing = () => {
                     <div className=' w-full '>
                         <div className=" text-white text-[32px] max-sm:text-2xl font-normal font-['Javanese Text']">Marketing & Promotion</div>
                         <img src={firstImage} className='mt-5 w-full' />
-                        <div className=" text-white text-[16px] max-sm:text-sm font-normal font-['Javanese Text'] mt-5">Elevate your event to the next level with our professional Event Host services.
-                            With our expertise in orchestrating the event flow and fostering audience engagement, we guarantee a memorable event that leaves a lasting impression.</div>
+                        <div className=" text-white text-[16px] max-sm:text-sm font-normal font-['Javanese Text'] mt-5">Elevate your event to the next level with my professional Event Host services.
+                            With my expertise in orchestrating the event flow and fostering audience engagement, I guarantee a memorable event that leaves a lasting impression.</div>
                         <div className=" text-white text-[16px] max-sm:text-sm font-normal font-['Javanese Text'] mt-5 max-sm:mt-2">
-                            Elevate your event to the next level with our professional Event Host services. With our expertise in orchestrating the event flow and fostering audience engagement,
-                            we guarantee a memorable event that leaves a lasting impression.</div>
+                            Elevate your event to the next level with my professional Event Host services. With my expertise in orchestrating the event flow and fostering audience engagement,
+                            I guarantee a memorable event that leaves a lasting impression.</div>
                     </div>
 
                 </div>

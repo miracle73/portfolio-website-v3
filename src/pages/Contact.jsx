@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import BackgroundImage from '../assets/images/background-image.jpg'
 import NavLinks from '../components/NavLinks'
 import '../App.css'
@@ -10,14 +10,15 @@ const Contact = () => {
     const [nav, setNav] = useState(false)
     return (
         <div className='min-h-screen w-full p-0'>
-           {nav && <div className='w-full h-full flex items-center justify-center fixed'>
-                <MobileNav setNav={setNav}  />
-            </div>} 
+
             <div style={{ backgroundImage: `url(${BackgroundImage})` }}
-                className="bg-cover bg-center h-[15rem] w-full">
-                <div className='lg:pt-10 max-lg:pt-14 max-md:pt-5 max-md:flex max-md:items-center max-md:justify-end max-md:pr-10 '>
+                className="bg-cover bg-center h-[15rem] w-full relative">
+                {nav && <div className='w-full h-full flex items-center justify-center absolute'>
+                    <MobileNav setNav={setNav} />
+                </div>}
+                {!nav && <div className='lg:pt-10 max-lg:pt-14 max-md:pt-5 max-md:flex max-md:items-center max-md:justify-end max-md:pr-10 '>
                     <NavLinks setNav={setNav} />
-                </div>
+                </div>}
 
             </div>
             <div className="  w-full flex flex-col pt-10 bg-black">
@@ -41,7 +42,7 @@ const Contact = () => {
                 <div className='border-y border-white flex justify-center items-center '>
                     <div className=' w-2/3 my-16 '>
                         <div className="text-center text-white text-[32px] max-lg:text-2xl max-md:text-xl font-normal font-['Javanese Text']">Send us a Message</div>
-                        <div className=" text-center text-white text-[18px] max-lg:text-base max-md:text-sm mt-5 font-normal font-['Inter']">Have a specific inquiry or want to discuss your project in detail? Fill out the form below, and we'll get back to you as soon as possible.</div>
+                        <div className=" text-center text-white text-[18px] max-lg:text-base max-md:text-sm mt-5 font-normal font-['Inter']">Have a specific inquiry or want to discuss your project in detail? Fill out the form below, and I'll get back to you as soon as possible.</div>
                         <form className='mt-5 flex flex-col justify-center items-center w-full'>
                             <input type="text" className=' email-input text-white border-b-[1px] bg-black border-white w-full   text-xl font-javanese-text text-center mt-10' placeholder="Name" />
                             <input type="text" className=' email-input text-white border-b-[1px] bg-black border-white w-full   text-xl font-javanese-text text-center mt-10' placeholder="Email address" />

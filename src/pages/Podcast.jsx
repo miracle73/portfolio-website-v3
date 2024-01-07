@@ -43,22 +43,23 @@ const Podcast = () => {
     }, []);
     return (
         <div className='min-h-screen w-full p-0'>
-             {nav && <div className='w-full h-full flex items-center justify-center fixed'>
-                <MobileNav setNav={setNav}  />
-            </div>} 
+             
             <div style={{ backgroundImage: `url(${BackgroundImage})` }}
-                className="bg-cover bg-center h-[15rem] w-full">
-                <div className='lg:pt-10 max-lg:pt-14 max-md:pt-5 max-md:flex max-md:items-center max-md:justify-end max-md:pr-10'>
-                    <NavLinks setNav={setNav}/>
-                </div>
+                className="bg-cover bg-center h-[15rem] w-full relative">
+               {nav && <div className='w-full h-full flex items-center justify-center absolute'>
+                    <MobileNav setNav={setNav} />
+                </div>}
+                {!nav && <div className='lg:pt-10 max-lg:pt-14 max-md:pt-5 max-md:flex max-md:items-center max-md:justify-end max-md:pr-10 '>
+                    <NavLinks setNav={setNav} />
+                </div>}
 
             </div>
             <div className=" h-fit pb-10  w-full flex flex-col pt-10 bg-black">
                 <div className='flex justify-center items-center max-md:p-3'>
                     <img src={HomeIcon} className=' max-md:w-20 object-cover max-lg:w-28  max-sm:w-14 ' />
                 </div>
-                <p className=" text-white text-[32px] max-lg:text-2xl max-md:text-xl font-normal font-['Poppins'] mt-10 px-10">Explore Our Podcasts</p>
-                <p className=" text-white text-lg max-lg:text-base max-md:text-sm font-normal font-['Poppins'] mt-5 px-10">Listen to our latest podcast </p>
+                <p className=" text-white text-[32px] max-lg:text-2xl max-md:text-xl font-normal font-['Poppins'] mt-10 px-10">Explore my Podcasts</p>
+                <p className=" text-white text-lg max-lg:text-base max-md:text-sm font-normal font-['Poppins'] mt-5 px-10">Listen to my latest podcast </p>
                 <p className=" text-white text-[32px] max-lg:text-2xl max-md:text-xl font-normal font-['Poppins'] mt-10 px-10">Career</p>
                 <div className='flex items-center justify-between relative px-7'>
                     <div className='w-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide' >
@@ -178,7 +179,7 @@ const Podcast = () => {
                 </div>}
             </div>
             <div className='py-20 max-md:py-14 max-sm:py-10 bg-black flex flex-col justify-center items-center '>
-                <div className="text-center text-white text-[16px] max-lg:text-sm  w-[50%] max-md:w-[70%] max-sm:w-[90%] font-normal font-['Poppins'] ">Subscribe and listen on every major platform<br />Our podcast is available on a growing number of platforms. Listen on your preferred app to get the best experience.</div>
+                <div className="text-center text-white text-[16px] max-lg:text-sm  w-[50%] max-md:w-[70%] max-sm:w-[90%] font-normal font-['Poppins'] ">Subscribe and listen on every major platform<br />My podcast is available on a growing number of platforms. Listen on your preferred app to get the best experience.</div>
                 <div className='flex flex-wrap justify-around items-center w-[40%] max-md:w-[70%] max-sm:w-[100%]  mt-10'>
 
                     <img className="w-10 h-10" src={Apple} />

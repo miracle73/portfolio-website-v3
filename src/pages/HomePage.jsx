@@ -14,16 +14,16 @@ const HomePage = () => {
   const [nav, setNav] = useState(false)
   return (
     <div className='min-h-screen w-full p-0 relative'>
-      {nav && <div className='w-full h-full flex items-center justify-between fixed'>
-        
-        <MobileNav setNav={setNav} />
-      </div>}
-      <div style={{ backgroundImage: `url(${BackgroundImage})` }}
-        className="bg-cover bg-center h-[40rem] w-full max-md:flex max-md:flex-col">
 
-        <div className='lg:pt-20 max-lg:pt-16 max-md:pt-5 max-md:flex max-md:items-center max-md:justify-end max-md:pr-10 '>
+      <div style={{ backgroundImage: `url(${BackgroundImage})` }}
+        className="bg-cover bg-center h-[40rem] w-full max-md:flex max-md:flex-col relative">
+
+        {nav && <div className='w-full h-full flex items-center justify-center absolute'>
+          <MobileNav setNav={setNav} />
+        </div>}
+        {!nav && <div className='lg:pt-10 max-lg:pt-14 max-md:pt-5 max-md:flex max-md:items-center max-md:justify-end max-md:pr-10 '>
           <NavLinks setNav={setNav} />
-        </div>
+        </div>}
         <div className='flex items-end justify-center md:hidden flex-1 pb-5'>
           <div className=" text-white text-[32px] font-normal font-['Javanese Text'] text-center">BJ Baringo</div>
         </div>

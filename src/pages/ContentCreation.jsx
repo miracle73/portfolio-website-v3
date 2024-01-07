@@ -16,14 +16,15 @@ const ContentCreation = () => {
     const [nav, setNav] = useState(false)
     return (
         <div className='min-h-screen w-full p-0'>
-            {nav && <div className='w-full h-full flex items-center justify-center fixed'>
-                <MobileNav setNav={setNav}  />
-            </div>} 
+            
             <div style={{ backgroundImage: `url(${BackgroundImage})` }}
-                className="bg-cover bg-center h-[15rem] w-full">
-                <div className='lg:pt-10 max-lg:pt-14 max-md:pt-5 max-md:flex max-md:items-center max-md:justify-end max-md:pr-10 '>
-                    <NavLinks setNav={setNav}  />
-                </div>
+                className="bg-cover bg-center h-[15rem] w-full relative">
+                {nav && <div className='w-full h-full flex items-center justify-center absolute'>
+                    <MobileNav setNav={setNav} />
+                </div>}
+                {!nav && <div className='lg:pt-10 max-lg:pt-14 max-md:pt-5 max-md:flex max-md:items-center max-md:justify-end max-md:pr-10 '>
+                    <NavLinks setNav={setNav} />
+                </div>}
 
             </div>
             <div className="  w-full flex flex-col pt-10 bg-black ">
@@ -36,11 +37,11 @@ const ContentCreation = () => {
                             </div>
 
                             <div className='w-[48%] max-sm:w-[100%]'>
-                                <div className=" text-white text-[16px] max-sm:text-sm font-normal font-['Javanese Text'] mt-5">Elevate your event to the next level with our professional Event Host services.
-                                    With our expertise in orchestrating the event flow and fostering audience engagement, we guarantee a memorable event that leaves a lasting impression.</div>
+                                <div className=" text-white text-[16px] max-sm:text-sm font-normal font-['Javanese Text'] mt-5">Elevate your event to the next level with my professional Event Host services.
+                                    With my expertise in orchestrating the event flow and fostering audience engagement, I guarantee a memorable event that leaves a lasting impression.</div>
                                 <div className=" text-white text-[16px] max-sm:text-sm font-normal font-['Javanese Text'] mt-5 max-sm:mt-2">
-                                    Elevate your event to the next level with our professional Event Host services. With our expertise in orchestrating the event flow and fostering audience engagement,
-                                    we guarantee a memorable event that leaves a lasting impression.</div>
+                                    Elevate your event to the next level with my professional Event Host services. With my expertise in orchestrating the event flow and fostering audience engagement,
+                                    I guarantee a memorable event that leaves a lasting impression.</div>
                                     
                             </div>
 
@@ -49,8 +50,8 @@ const ContentCreation = () => {
                     </div>
 
                 </div>
-                <div className=" text-center text-white text-[32px] max-md:text-2xl max-sm:text-xl font-normal font-['Javanese Text'] mt-40 max-lg:mt-32 max-md:mt-24 max-sm:mt-18">What Type of Content Do We Create?</div>
-                <div className=" text-center text-white text-2xl max-md:text-xl max-sm:text-lg max-xsm:text-base font-medium font-['Inter'] mt-10 max-md:mt-7 max-sm:mt-4 max-md:px-5">Our huge roster of talented writers execute on all types of written content.</div>
+                <div className=" text-center text-white text-[32px] max-md:text-2xl max-sm:text-xl font-normal font-['Javanese Text'] mt-40 max-lg:mt-32 max-md:mt-24 max-sm:mt-18">What Type of Content Do I Create?</div>
+                <div className=" text-center text-white text-2xl max-md:text-xl max-sm:text-lg max-xsm:text-base font-medium font-['Inter'] mt-10 max-md:mt-7 max-sm:mt-4 max-md:px-5">My huge roster of talented writers execute on all types of written content.</div>
                 <div className='flex justify-between items-center max-sm:flex-col max-sm:gap-2 mt-10 max-md:mt-7 max-sm:mt-4 px-16 max-lg:px-10 max-md:px-5'>
                     <div className=" bg-neutral-900 h-80 max-sm:h-36  w-[33%] max-sm:w-[100%] flex flex-col justify-center items-start px-5">
             
