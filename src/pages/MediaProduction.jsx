@@ -31,7 +31,7 @@ const MediaProduction = () => {
                         <div className=" text-white text-[32px] max-sm:text-2xl font-normal font-['Javanese Text']">Media Production</div>
                         <img src={firstImage} className='mt-5 w-full h-96 max-lg:h-86 max-md:72 max-sm:h-64 object-cover' />
                         <div className=" text-white text-[20px] max-sm:text-sm font-normal font-['Javanese Text'] mt-5">Elevate your event to the next level with my professional Event Host services.
-                            With my expertise in orchestrating the event flow and fostering audience engagement, I guarantee a memorable event that leaves a lasting impression.</div>
+                            With my expertise in orchestrating the event flow and fostering audience engagement, I guarantee a memorable event that leaves a lasting impression. Do you check me out</div>
 
                     </div>
 
