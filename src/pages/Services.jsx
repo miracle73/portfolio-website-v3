@@ -73,9 +73,10 @@ const Services = () => {
                     </div>
                 </div>
                 <div className="mt-24 text-white text-[32px] max-lg:text-2xl max-md:text-xl font-normal font-['Poppins'] text-center">What Others Are Saying...</div>
-                <div className='flex items-center justify-around flex-wrap'>
-                    <div className="w-[20%] max-md:w-[40%] max-xsm:w-[46%]  max-xsm:p-2 h-fit px-4 py-2 bg-white rounded-2xl border border-slate-300 justify-center items-center inline-flex my-10">
-                        <div className=" flex-col justify-start items-start gap-2 inline-flex">
+                <div className='flex items-center justify-around max-sm:overflow-x-auto max-sm:whitespace-nowrap'>
+     
+                    <div className="w-[20%] max-md:w-[40%] max-xsm:w-[46%]  max-xsm:p-2 h-fit px-4 py-2 bg-white rounded-2xl border border-slate-300 my-10">
+                        <div className=" w-full">
                             <div className='flex items-start w-full justify-between'>
                                 <div className="self-stretch flex-col justify-center items-start gap-1 flex">
                                     <img className="w-[60px] h-[60px] rounded-[50px]" src={firstTestimonial} />
@@ -89,66 +90,70 @@ const Services = () => {
 
                                 </div>
                             </div>
-                            <div className="self-stretch text-black text-sm font-semibold ">Floyd Miles</div>
-                            <div className="self-stretch text-neutral-500 text-sm font-normal ">I've been podcasting for years, and working with this podcast services team has truly been a game-changer.  I can't recommend them enough. If you're serious about your podcast, these folks are the ones to turn to.</div>
+                            <div className=" text-black text-sm font-semibold ">Floyd Miles</div>
+                            <div className=" text-neutral-500 text-sm font-normal ">I've been podcasting for years, and working with this podcast services team has truly been a game-changer.  I can't recommend them enough. If you're serious about your podcast, these folks are the ones to turn to.</div>
                         </div>
                     </div>
-                    <div className="w-[20%] max-md:w-[40%] max-xsm:w-[46%]  max-xsm:p-2  h-fit px-4 py-2 bg-white rounded-2xl border border-slate-300 justify-center items-center inline-flex">
-                        <div className=" flex-col justify-start items-start gap-2 inline-flex">
-                            <div className='flex items-start justify-between w-full'>
+                    <div className="w-[20%] max-md:w-[40%] max-xsm:w-[46%]  max-xsm:p-2 h-fit px-4 py-2 bg-white rounded-2xl border border-slate-300 my-10">
+                        <div className=" w-full">
+                            <div className='flex items-start w-full justify-between'>
                                 <div className="self-stretch flex-col justify-center items-start gap-1 flex">
                                     <img className="w-[60px] h-[60px] rounded-[50px]" src={secondTestimonial} />
-                                   
+                                    
                                 </div>
                                 <div className='flex items-start mt-5 justify-between'>
                                     <FaStar className='text-[#F7A301]' />
                                     <FaStar className='text-[#F7A301]' />
                                     <FaStar className='text-[#F7A301]' />
-                                    
 
 
                                 </div>
                             </div>
-                            <div className="self-stretch text-black text-sm font-semibold ">Ronald Richards</div>
-                            <div className="self-stretch text-neutral-500 text-sm font-normal ">I've been podcasting for years, and working with this podcast services team has truly been a game-changer.  I can't recommend them enough. If you're serious about your podcast, these folks are the ones to turn to.</div>
+                            <div className=" text-black text-sm font-semibold  ">Ronald Richards</div>
+                            <div className=" text-neutral-500 text-sm font-normal ">I've been podcasting for years, and working with this podcast services team has truly been a game-changer.  I can't recommend them enough. If you're serious about your podcast, these folks are the ones to turn to.</div>
                         </div>
                     </div>
-                    <div className=" max-md:hidden w-[20%] max-md:w-[40%] max-xsm:w-[46%] max-xsm:p-2 h-fit px-4 py-2 bg-white rounded-2xl border border-slate-300 justify-center items-center inline-flex">
-                        <div className=" flex-col justify-start items-start gap-2 inline-flex">
+                    <div className="w-[20%] max-md:w-[40%] max-xsm:w-[46%]  max-xsm:p-2 h-fit px-4 py-2 bg-white rounded-2xl border border-slate-300 my-10">
+                        <div className=" w-full">
                             <div className='flex items-start w-full justify-between'>
                                 <div className="self-stretch flex-col justify-center items-start gap-1 flex">
                                     <img className="w-[60px] h-[60px] rounded-[50px]" src={thirdTestimonial} />
-                                   
-                                </div>
-                                <div className='flex items-start mt-5  justify-between'>
-                                    <FaStar className='text-[#F7A301]' />
-                                    <FaStar className='text-[#F7A301]' />
-                                    <FaStar className='text-[#F7A301]' />
-
-
-                                </div>
-                            </div>
-                            <div className="self-stretch text-black text-sm font-semibold ">Savannah Nguyen</div>
-                            <div className="self-stretch text-neutral-500 text-sm font-normal ">I've been podcasting for years, and working with this podcast services team has truly been a game-changer.  I can't recommend them enough. If you're serious about your podcast, these folks are the ones to turn to.</div>
-                        </div>
-                    </div>
-                    <div className=" max-md:hidden w-[20%] max-md:w-[40%] max-xsm:w-[46%]  h-fit px-4 py-2 bg-white rounded-2xl border border-slate-300 justify-center items-center inline-flex">
-                        <div className=" flex-col justify-start items-start gap-2 inline-flex">
-                            <div className='flex items-start w-full justify-between'>
-                                <div className="self-stretch flex-col justify-center items-start gap-1 flex ">
-                                    <img className="w-[60px] h-[60px] rounded-[50px]" src={fourthTestimonial} />
-                                   
+                                    
                                 </div>
                                 <div className='flex items-start mt-5 justify-between'>
                                     <FaStar className='text-[#F7A301]' />
                                     <FaStar className='text-[#F7A301]' />
+                                    <FaStar className='text-[#F7A301]' />
+
+
                                 </div>
                             </div>
-                            <div className="self-stretch text-black text-sm font-semibold ">Babalawo Iguana</div>
-                            <div className="self-stretch text-neutral-500 text-sm font-normal  ">I've been podcasting for years, and working with this podcast services team has truly been a game-changer.  I can't recommend them enough. If you're serious about your podcast, these folks are the ones to turn to.</div>
+                            <div className=" text-black text-sm font-semibold  ">Savannah Nguyen</div>
+                            <div className=" text-neutral-500 text-sm font-normal ">I've been podcasting for years, and working with this podcast services team has truly been a game-changer.  I can't recommend them enough. If you're serious about your podcast, these folks are the ones to turn to.</div>
                         </div>
                     </div>
+                    <div className="w-[20%] max-md:w-[40%] max-xsm:w-[46%]  max-xsm:p-2 h-fit px-4 py-2 bg-white rounded-2xl border border-slate-300 my-10">
+                        <div className=" w-full">
+                            <div className='flex items-start w-full justify-between'>
+                                <div className="self-stretch flex-col justify-center items-start gap-1 flex">
+                                    <img className="w-[60px] h-[60px] rounded-[50px]" src={fourthTestimonial} />
+                                    
+                                </div>
+                                <div className='flex items-start mt-5 justify-between'>
+                                    <FaStar className='text-[#F7A301]' />
+                                    <FaStar className='text-[#F7A301]' />
+                                    <FaStar className='text-[#F7A301]' />
+
+
+                                </div>
+                            </div>
+                            <div className=" text-black text-sm font-semibold  ">Babalawo Iguana</div>
+                            <div className=" text-neutral-500 text-sm font-normal ">I've been podcasting for years, and working with this podcast services team has truly been a game-changer.  I can't recommend them enough. If you're serious about your podcast, these folks are the ones to turn to.</div>
+                        </div>
+                    </div>
+                    
                 </div>
+                
 
                 <div className=' '>
                     <Footer />
