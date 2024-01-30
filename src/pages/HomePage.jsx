@@ -1,10 +1,13 @@
 import React, { useState } from 'react'
 import '../App.css'
 import BackgroundImage from '../assets/images/background-image.jpg'
+import BJ2 from '../assets/images/BJ2.jpg';
+import BJ3 from '../assets/images/BJ3.jpg';
+import BJ4 from '../assets/images/BJ4.jpg';
 import HomeIcon from '../assets/images/home-icon.png'
-import FirstImage from '../assets/images/money.jpg'
-import SecondImage from '../assets/images/problem-solving.jpg'
-import ThirdImage from '../assets/images/love.jpg'
+// import FirstImage from '../assets/images/money.jpg'
+// import SecondImage from '../assets/images/problem-solving.jpg'
+// import ThirdImage from '../assets/images/love.jpg'
 import NavLinks from '../components/NavLinks'
 import Footer from '../components/Footer'
 import MobileNav from '../components/MobileNav'
@@ -40,21 +43,21 @@ const HomePage = () => {
       </div>
       <div className=" text-white bg-black text-[32px] max-lg:text-2xl max-md:text-xl  font-normal font-['Poppins'] px-10 max-md:pt-40">Listen to my latest podcasts</div>
       <div className='flex max-sm:flex-col max-sm:gap-4 justify-between items-center bg-black py-10 px-10'>
-        <div className='w-[30%] h-60 max-sm:w-[90%] max-sm:mx-auto shadow-2xl  hover:cursor-pointer '>
-          <div className=" mb-5 bg-cover h-full  flex hover:bg-blend-multiply hover:bg-gray-500 items-end pb-2 hover:pb-4 justify-center" style={{ backgroundImage: `url(${FirstImage})` }}>
-            <div className="text-white text-xl max-lg:text-base  font-semibold text-center font-['Poppins']">The Role of Finance in Relationships</div>
+        <a href='https://podcasts.apple.com/us/podcast/thoughtful-randomness/id1615584635' target='_blank' className='w-[30%] h-60 max-sm:w-[90%] max-sm:mx-auto shadow-2xl  hover:cursor-pointer '>
+          <div className=" mb-5 bg-cover h-full  flex hover:bg-blend-multiply hover:bg-gray-500 items-end pb-2 hover:pb-4 justify-center" style={{ backgroundImage: `url(${BJ2})` }}>
+            <div className="text-white text-xl max-lg:text-base  font-semibold text-center font-['Poppins']">Thoughtful Randomness - Apple Podcast</div>
           </div>
-        </div>
-        <div className='w-[30%] h-60 max-sm:w-[90%] max-sm:mx-auto  shadow-md hover:cursor-pointer   '>
-          <div className="  mb-5 bg-cover hover:cursor-pointer  h-full flex hover:bg-blend-multiply items-end pb-2 hover:pb-4 justify-center hover:bg-gray-500" style={{ backgroundImage: `url(${SecondImage})` }}>
-            <div className="text-white  text-xl max-lg:text-base  font-semibold text-center font-['Poppins']">Career Change: How to Navigate and Manage the Risks</div>
+        </a>
+        <a href='https://open.spotify.com/show/3T60alD2U90Mn2YgtMnyYS?si=487cab7ab94d4c0d' target='_blank' className='w-[30%] h-60 max-sm:w-[90%] max-sm:mx-auto  shadow-md hover:cursor-pointer   '>
+          <div className="  mb-5 bg-cover hover:cursor-pointer  h-full flex hover:bg-blend-multiply items-end pb-2 hover:pb-4 justify-center hover:bg-gray-500" style={{ backgroundImage: `url(${BJ3})` }}>
+            <div className="text-white  text-xl max-lg:text-base  font-semibold text-center font-['Poppins']">Thoughtful Randomness - Spotify</div>
           </div>
-        </div>
-        <div className='w-[30%] h-60 max-sm:w-[90%] max-sm:mx-auto shadow-md hover:cursor-pointer   '>
-          <div className=" mb-5 bg-cover hover:cursor-pointer h-full flex hover:bg-blend-multiply hover:bg-gray-500 items-end pb-2 hover:pb-4 justify-center" style={{ backgroundImage: `url(${ThirdImage})` }}>
-            <div className="text-white text-xl max-lg:text-base  font-semibold  text-center font-['Poppins']">Do You Love Yourself</div>
+        </a>
+        <a href='https://open.spotify.com/show/0cTcT0vGIViIEfRNafsSlC' target='_blank' className='w-[30%] h-60 max-sm:w-[90%] max-sm:mx-auto shadow-md hover:cursor-pointer   '>
+          <div className=" mb-5 bg-cover hover:cursor-pointer h-full flex hover:bg-blend-multiply hover:bg-gray-500 items-end pb-2 hover:pb-4 justify-center" style={{ backgroundImage: `url(${BJ4})` }}>
+            <div className="text-white text-xl max-lg:text-base  font-semibold  text-center font-['Poppins']">Wait, Hear us Out!</div>
           </div>
-        </div>
+        </a>
       </div>
       <div className='bg-black pt-20'>
         <div className=" text-center text-white text-[32px] max-lg:text-2xl max-md:text-xl  font-normal font-['Poppins'] max-md:px-10 ">Sign up for my Newsletter</div>

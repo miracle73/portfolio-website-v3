@@ -73,9 +73,9 @@ const Services = () => {
                     </div>
                 </div>
                 <div className="mt-24 text-white text-[32px] max-lg:text-2xl max-md:text-xl font-normal font-['Poppins'] text-center">What Others Are Saying...</div>
-                <div className='flex items-center justify-around max-sm:overflow-x-auto max-sm:whitespace-nowrap'>
+                <div className='flex items-center justify-around gap-2 max-sm:overflow-x-auto max-md:flex-col'>
      
-                    <div className="w-[20%] max-md:w-[40%] max-xsm:w-[46%]  max-xsm:p-2 h-fit px-4 py-2 bg-white rounded-2xl border border-slate-300 my-10">
+                    <div className="w-[70%] max-md:w-[100%] max-xsm:w-[76%]  max-xsm:p-2 h-fit px-4 py-2 bg-white rounded-2xl border border-slate-300 my-10">
                         <div className=" w-full">
                             <div className='flex items-start w-full justify-between'>
                                 <div className="self-stretch flex-col justify-center items-start gap-1 flex">
@@ -91,10 +91,10 @@ const Services = () => {
                                 </div>
                             </div>
                             <div className=" text-black text-sm font-semibold ">Floyd Miles</div>
-                            <div className=" text-neutral-500 text-sm font-normal ">I've been podcasting for years, and working with this podcast services team has truly been a game-changer.  I can't recommend them enough. If you're serious about your podcast, these folks are the ones to turn to.</div>
+                            <div className=" text-neutral-500 text-sm font-normal">I've been podcasting for years, and working with this podcast services team has truly been a game-changer.  I can't recommend them enough. If you're serious about your podcast, these folks are the ones to turn to.</div>
                         </div>
                     </div>
-                    <div className="w-[20%] max-md:w-[40%] max-xsm:w-[46%]  max-xsm:p-2 h-fit px-4 py-2 bg-white rounded-2xl border border-slate-300 my-10">
+                    <div className="w-[70%] max-md:w-[100%] max-xsm:w-[76%] max-xsm:p-2 h-fit px-4 py-2 bg-white rounded-2xl border border-slate-300 my-10">
                         <div className=" w-full">
                             <div className='flex items-start w-full justify-between'>
                                 <div className="self-stretch flex-col justify-center items-start gap-1 flex">
@@ -113,7 +113,7 @@ const Services = () => {
                             <div className=" text-neutral-500 text-sm font-normal ">I've been podcasting for years, and working with this podcast services team has truly been a game-changer.  I can't recommend them enough. If you're serious about your podcast, these folks are the ones to turn to.</div>
                         </div>
                     </div>
-                    <div className="w-[20%] max-md:w-[40%] max-xsm:w-[46%]  max-xsm:p-2 h-fit px-4 py-2 bg-white rounded-2xl border border-slate-300 my-10">
+                    <div className="w-[70%] max-md:w-[100%] max-xsm:w-[76%] max-xsm:p-2 h-fit px-4 py-2 bg-white rounded-2xl border border-slate-300 my-10">
                         <div className=" w-full">
                             <div className='flex items-start w-full justify-between'>
                                 <div className="self-stretch flex-col justify-center items-start gap-1 flex">
@@ -132,7 +132,7 @@ const Services = () => {
                             <div className=" text-neutral-500 text-sm font-normal ">I've been podcasting for years, and working with this podcast services team has truly been a game-changer.  I can't recommend them enough. If you're serious about your podcast, these folks are the ones to turn to.</div>
                         </div>
                     </div>
-                    <div className="w-[20%] max-md:w-[40%] max-xsm:w-[46%]  max-xsm:p-2 h-fit px-4 py-2 bg-white rounded-2xl border border-slate-300 my-10">
+                    <div className="w-[70%] max-md:w-[100%] max-xsm:w-[76%] max-xsm:p-2 h-fit px-4 py-2 bg-white rounded-2xl border border-slate-300 my-10">
                         <div className=" w-full">
                             <div className='flex items-start w-full justify-between'>
                                 <div className="self-stretch flex-col justify-center items-start gap-1 flex">
