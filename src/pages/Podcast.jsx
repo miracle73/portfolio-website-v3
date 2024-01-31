@@ -2,12 +2,14 @@ import React, { useState, useEffect } from 'react'
 import BackgroundImage from '../assets/images/background-image.jpg'
 import NavLinks from '../components/NavLinks'
 import HomeIcon from '../assets/images/podcast.png'
-import FirstImage from '../assets/images/briefcase.jpg'
-import SecondImage from '../assets/images/problem-solving.jpg'
-import ThirdImage from '../assets/images/employee.jpg'
-import FourthImage from '../assets/images/romantic.jpg'
-import FifthImage from '../assets/images/shaking.jpg'
-import SixthImage from '../assets/images/barrier.jpg'
+import obianuju from '../assets/images/obianuju.jpg';
+import podcast1 from '../assets/images/obianuju.jpg';
+import anxiety from '../assets/images/anxiety.jpg';
+import podcast3 from '../assets/images/podcast3.jpg';
+import idahosa from '../assets/images/idahosa.jpg';
+import Questions from '../assets/images/Questions.jpg'
+import towhom from '../assets/images/towhom.jpg';
+import Udoka from '../assets/images/Udoka.jpg';
 import Apple from '../assets/images/applepodcasts.png'
 import Youtube from '../assets/images/youtube.png'
 import Spotify from '../assets/images/spotify.png'
@@ -15,6 +17,7 @@ import Google from '../assets/images/google-podcast.png'
 import SoundCloud from '../assets/images/soundcard.png'
 import Footer from '../components/Footer'
 import MobileNav from '../components/MobileNav'
+import BJB1 from '../assets/images/BJB1.jpg'
 import { Link } from 'react-router-dom'
 
 const Podcast = () => {
@@ -68,42 +71,42 @@ const Podcast = () => {
                     <a href="https://open.spotify.com/show/0cTcT0vGIViIEfRNafsSlC" target='_blank' className="text-white font-bold max-lg:text-base max-md:text-sm font-['Poppins'] mt-5">Spotify</a>
                     <div className='w-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide' >
                         <Link to='https://open.spotify.com/episode/3nNsUYLVcAR4fOMRl2mOac?si=a6cfc6f7c211472b' target='_blank' id="sliderItem" className='w-[30%] max-lg:w-[35%] max-sm:w-[55%] max-xsm:w-[65%] relative overflow-hidden shadow-md pb-2 rounded-md hover:cursor-pointer inline-block hover:scale-105 ease-in-out duration-300 mx-3'>
-                            <div className=" bg-cover  h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${FirstImage})` }}>
+                            <div className=" bg-cover  h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${BJB1})` }}>
                                 <div className="text-white text-[16px] max-lg:text-sm max-md:text-xs font-normal font-['Poppins']">Thoughtful Randomness is Back!!!</div>
                             </div>
                         </Link>
                         <Link to='https://open.spotify.com/episode/5d0wevlxoIvpqxfy2LK4HQ?si=19ead6af4eca442c' target='_blank' id="sliderItem" className='w-[30%] max-lg:w-[35%] max-sm:w-[55%] max-xsm:w-[65%] relative overflow-hidden shadow-md pb-2 rounded-md hover:cursor-pointer inline-block hover:scale-105 ease-in-out duration-300 mx-3'>
-                            <div className=" bg-cover hover:cursor-pointer  h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${SecondImage})` }}>
+                            <div className=" bg-cover hover:cursor-pointer  h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${Questions})` }}>
                                 <div className=" text-white text-[16px] max-lg:text-sm max-md:text-xs font-normal font-['Poppins']">15 Questions</div>
                             </div>
                         </Link>
                         <Link to='https://open.spotify.com/episode/3FrDUEchxWVKF81Gsm351E?si=3e592a415dff4e10' target='_blank' id="sliderItem" className='w-[30%] max-lg:w-[35%] max-sm:w-[55%] max-xsm:w-[65%] relative overflow-hidden shadow-md pb-2 rounded-md hover:cursor-pointer inline-block hover:scale-105 ease-in-out duration-300 mx-3'>
-                            <div className=" bg-cover hover:cursor-pointer h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${ThirdImage})` }}>
+                            <div className=" bg-cover hover:cursor-pointer h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${idahosa})` }}>
                                 <div className=" text-white text-[16px] max-lg:text-sm max-md:text-xs font-normal font-['Poppins']">Laurie Idahosa</div>
                             </div>
                         </Link>
                         <Link to="https://open.spotify.com/episode/0RR6nOAbvzSvv9kF2jiTax?si=b7389944d7304ca1" target="_blank" id="sliderItem" className='w-[30%] max-lg:w-[35%] max-sm:w-[55%] max-xsm:w-[65%] relative overflow-hidden shadow-md pb-2 rounded-md hover:cursor-pointer inline-block hover:scale-105 ease-in-out duration-300 mx-3'>
-                            <div className="  bg-cover hover:cursor-pointer h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${FirstImage})` }}>
+                            <div className="  bg-cover hover:cursor-pointer h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${anxiety})` }}>
                                 <div className="text-white text-[16px] max-lg:text-sm max-md:text-xs font-normal font-['Poppins']">Dancing with Anxiety</div>
                             </div>
                         </Link>
                         <Link to="https://open.spotify.com/episode/2pXqZxuOTzCara9zAVImLF?si=21af9e8ec7db4c83" target='_blank' id="sliderItem" className='w-[30%] max-lg:w-[35%] max-sm:w-[55%] max-xsm:w-[65%] relative overflow-hidden shadow-md pb-2 rounded-md hover:cursor-pointer inline-block hover:scale-105 ease-in-out duration-300 mx-3'>
-                            <div className="  bg-cover hover:cursor-pointer h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${SecondImage})` }}>
+                            <div className="  bg-cover hover:cursor-pointer h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${towhom})` }}>
                                 <div className=" text-white text-[16px] max-lg:text-sm max-md:text-xs font-normal font-['Poppins']">To whom it may Concern</div>
                             </div>
                         </Link>
                         <Link to="https://open.spotify.com/episode/4GcfAofFQzEGYSpmjMqMBe?si=89106fa2553f419d" target='_blank' id="sliderItem" className='w-[30%] max-lg:w-[35%] max-sm:w-[55%] max-xsm:w-[65%] relative overflow-hidden shadow-md pb-2 rounded-md hover:cursor-pointer inline-block hover:scale-105 ease-in-out duration-300 mx-3'>
-                            <div className=" bg-cover hover:cursor-pointer h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${ThirdImage})` }}>
+                            <div className=" bg-cover hover:cursor-pointer h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${obianuju})` }}>
                                 <div className=" text-white text-[16px] max-lg:text-sm max-md:text-xs font-normal font-['Poppins']">Obianuju Asika</div>
                             </div>
                         </Link>
                         <Link to="https://open.spotify.com/episode/0ynuo84RlsgCFOeL0wO1DP?si=37f61b88e43c4e4a" target='_blank' id="sliderItem" className='w-[30%] max-lg:w-[35%] max-sm:w-[55%] max-xsm:w-[65%] relative overflow-hidden shadow-md pb-2 rounded-md hover:cursor-pointer inline-block hover:scale-105 ease-in-out duration-300 mx-3'>
-                            <div className=" bg-cover hover:cursor-pointer h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${ThirdImage})` }}>
+                            <div className=" bg-cover hover:cursor-pointer h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${podcast1})` }}>
                                 <div className=" text-white text-[16px] max-lg:text-sm max-md:text-xs font-normal font-['Poppins']">Fatherhood</div>
                             </div>
                         </Link>
                         <Link to="https://open.spotify.com/episode/3ZreEewiWw5TILt8oFpHsr?si=c837eef871ef40f6" target='_blank' id="sliderItem" className='w-[30%] max-lg:w-[35%] max-sm:w-[55%] max-xsm:w-[65%] relative overflow-hidden shadow-md pb-2 rounded-md hover:cursor-pointer inline-block hover:scale-105 ease-in-out duration-300 mx-3'>
-                            <div className=" bg-cover hover:cursor-pointer h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${ThirdImage})` }}>
+                            <div className=" bg-cover hover:cursor-pointer h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${Udoka})` }}>
                                 <div className=" text-white text-[16px] max-lg:text-sm max-md:text-xs font-normal font-['Poppins']">Udoka Odigbor</div>
                             </div>
                         </Link>
@@ -111,37 +114,37 @@ const Podcast = () => {
                     <a href="https://podcasts.apple.com/us/podcast/thoughtful-randomness/id1615584635" target='_blank' className="text-white font-bold max-lg:text-base max-md:text-sm font-['Poppins'] mt-5">Apple Podcast</a>
                     <div className='w-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide' >
                         <Link to='https://podcasts.apple.com/us/podcast/chapter-00-thoughtful-randomness-is-back/id1615584635?i=1000554868353' target='_blank' id="sliderItem" className='w-[30%] max-lg:w-[35%] max-sm:w-[55%] max-xsm:w-[65%] relative overflow-hidden shadow-md pb-2 rounded-md hover:cursor-pointer inline-block hover:scale-105 ease-in-out duration-300 mx-3'>
-                            <div className=" bg-cover  h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${FirstImage})` }}>
+                            <div className=" bg-cover  h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${BJB1})` }}>
                                 <div className="text-white text-[16px] max-lg:text-sm max-md:text-xs font-normal font-['Poppins']">Thoughtful Randomness is Back!!!</div>
                             </div>
                         </Link>
                         <Link to='https://podcasts.apple.com/us/podcast/chapter-02-laurie-idahosa/id1615584635?i=1000555241876' target='_blank' id="sliderItem" className='w-[30%] max-lg:w-[35%] max-sm:w-[55%] max-xsm:w-[65%] relative overflow-hidden shadow-md pb-2 rounded-md hover:cursor-pointer inline-block hover:scale-105 ease-in-out duration-300 mx-3'>
-                            <div className=" bg-cover hover:cursor-pointer h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${ThirdImage})` }}>
+                            <div className=" bg-cover hover:cursor-pointer h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${idahosa})` }}>
                                 <div className=" text-white text-[16px] max-lg:text-sm max-md:text-xs font-normal font-['Poppins']">Laurie Idahosa</div>
                             </div>
                         </Link>
                         <Link to="https://podcasts.apple.com/us/podcast/chapter-03-dancing-with-anxiety/id1615584635?i=1000555460498" target="_blank" id="sliderItem" className='w-[30%] max-lg:w-[35%] max-sm:w-[55%] max-xsm:w-[65%] relative overflow-hidden shadow-md pb-2 rounded-md hover:cursor-pointer inline-block hover:scale-105 ease-in-out duration-300 mx-3'>
-                            <div className="  bg-cover hover:cursor-pointer h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${FirstImage})` }}>
+                            <div className="  bg-cover hover:cursor-pointer h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${anxiety})` }}>
                                 <div className="text-white text-[16px] max-lg:text-sm max-md:text-xs font-normal font-['Poppins']">Dancing with Anxiety</div>
                             </div>
                         </Link>
                         <Link to="https://podcasts.apple.com/us/podcast/chapter-04-to-whom-it-may-concern/id1615584635?i=1000556188542" target='_blank' id="sliderItem" className='w-[30%] max-lg:w-[35%] max-sm:w-[55%] max-xsm:w-[65%] relative overflow-hidden shadow-md pb-2 rounded-md hover:cursor-pointer inline-block hover:scale-105 ease-in-out duration-300 mx-3'>
-                            <div className="  bg-cover hover:cursor-pointer h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${SecondImage})` }}>
+                            <div className="  bg-cover hover:cursor-pointer h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${towhom})` }}>
                                 <div className=" text-white text-[16px] max-lg:text-sm max-md:text-xs font-normal font-['Poppins']">To whom it may Concern</div>
                             </div>
                         </Link>
                         <Link to="https://podcasts.apple.com/us/podcast/chapter-05-obianuju-asika/id1615584635?i=1000560752208" target='_blank' id="sliderItem" className='w-[30%] max-lg:w-[35%] max-sm:w-[55%] max-xsm:w-[65%] relative overflow-hidden shadow-md pb-2 rounded-md hover:cursor-pointer inline-block hover:scale-105 ease-in-out duration-300 mx-3'>
-                            <div className=" bg-cover hover:cursor-pointer h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${ThirdImage})` }}>
+                            <div className=" bg-cover hover:cursor-pointer h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${obianuju})` }}>
                                 <div className=" text-white text-[16px] max-lg:text-sm max-md:text-xs font-normal font-['Poppins']">Obianuju Asika</div>
                             </div>
                         </Link>
                         <Link to="https://podcasts.apple.com/us/podcast/chapter-05-obianuju-asika/id1615584635?i=1000560752208" target='_blank' id="sliderItem" className='w-[30%] max-lg:w-[35%] max-sm:w-[55%] max-xsm:w-[65%] relative overflow-hidden shadow-md pb-2 rounded-md hover:cursor-pointer inline-block hover:scale-105 ease-in-out duration-300 mx-3'>
-                            <div className=" bg-cover hover:cursor-pointer h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${ThirdImage})` }}>
+                            <div className=" bg-cover hover:cursor-pointer h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${podcast3})` }}>
                                 <div className=" text-white text-[16px] max-lg:text-sm max-md:text-xs font-normal font-['Poppins']">Fatherhood</div>
                             </div>
                         </Link>
                         <Link to="https://podcasts.apple.com/us/podcast/chapter-05-obianuju-asika/id1615584635?i=1000560752208" target='_blank' id="sliderItem" className='w-[30%] max-lg:w-[35%] max-sm:w-[55%] max-xsm:w-[65%] relative overflow-hidden shadow-md pb-2 rounded-md hover:cursor-pointer inline-block hover:scale-105 ease-in-out duration-300 mx-3'>
-                            <div className=" bg-cover hover:cursor-pointer h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${ThirdImage})` }}>
+                            <div className=" bg-cover hover:cursor-pointer h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${Udoka})` }}>
                                 <div className=" text-white text-[16px] max-lg:text-sm max-md:text-xs font-normal font-['Poppins']">Udoka Odigbor</div>
                             </div>
                         </Link>
@@ -151,12 +154,12 @@ const Podcast = () => {
                 <div className='flex items-center justify-between relative px-7 '>
                     <div className='w-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide' >
                         <Link to="https://open.spotify.com/episode/2FlbUmqOORINgqvoZrp7bV?si=294c69cc761a42f7" target='_blank' id="sliderItem" className='w-[30%] max-lg:w-[35%] max-sm:w-[55%] max-xsm:w-[65%] relative overflow-hidden shadow-md pb-2 rounded-md hover:cursor-pointer inline-block hover:scale-105 ease-in-out duration-300 mx-3'>
-                            <div className=" bg-cover  h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${FourthImage})` }}>
+                            <div className=" bg-cover  h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${podcast1})` }}>
                                 <div className="text-white text-[16px] max-lg:text-sm max-md:text-xs font-normal font-['Poppins']">The Genesis - How it started</div>
                             </div>
                         </Link>
                         <Link to="https://open.spotify.com/episode/2FlbUmqOORINgqvoZrp7bV?si=90caf0b814b743cb" target='_blank' id="sliderItem" className='w-[30%] max-lg:w-[35%] max-sm:w-[55%] max-xsm:w-[65%] relative overflow-hidden shadow-md pb-2 rounded-md hover:cursor-pointer inline-block hover:scale-105 ease-in-out duration-300 mx-3'>
-                            <div className=" bg-cover hover:cursor-pointer  h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${FifthImage})` }}>
+                            <div className=" bg-cover hover:cursor-pointer  h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${podcast3})` }}>
                                 <div className=" text-white text-[16px] max-lg:text-sm max-md:text-xs font-normal font-['Poppins']">The Genesis - How it started</div>
                             </div>
                         </Link>
@@ -169,7 +172,7 @@ const Podcast = () => {
                     <div className='flex items-center justify-between relative px-7'>
                         <div className='w-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide' >
                             <div id="sliderItem" className='w-[30%] max-lg:w-[35%] max-sm:w-[55%] max-xsm:w-[65%] relative overflow-hidden shadow-md pb-2 rounded-md hover:cursor-pointer inline-block hover:scale-105 ease-in-out duration-300 mx-3'>
-                                <div className=" bg-cover  h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${FourthImage})` }}>
+                                <div className=" bg-cover  h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${podcast1})` }}>
                                     <div className="text-white text-[16px] max-lg:text-sm max-md:text-xs font-normal font-['Poppins']">Love at first sight</div>
                                 </div>
                             </div>
