@@ -69,7 +69,7 @@ const Services = () => {
                     <div className='w-[45%] '>
                         <Link to="/media" className=" text-white text-[24px] max-lg:text-xl max-md:text-lg max-sm:text-sm font-semibold font-['Javanese Text']">Media Production</Link>
                         <img src={fourthImage} className='mt-5' />
-                        <div className="truncate-text text-white text-[16px] max-lg:text-base max-md:text-sm max-sm:text-xs font-normal font-['Javanese Text'] mt-5">Elevate the quality and impact of your services with my media production services. I provide all the required resources to give your business that unique brans that resonates with your target audience5</div>
+                        <div className="truncate-text text-white text-[16px] max-lg:text-base max-md:text-sm max-sm:text-xs font-normal font-['Javanese Text'] mt-5">Elevate the quality and impact of your services with my media production services. I provide all the required resources to give your business that unique brans that resonates with your target audience</div>
                     </div>
                 </div>
                 <div className="mt-24 text-white text-[32px] max-lg:text-2xl max-md:text-xl font-normal font-['Poppins'] text-center">What Others Are Saying...</div>
