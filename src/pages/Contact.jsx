@@ -47,9 +47,9 @@ const Contact = () => {
                             <input type="text" className=' email-input text-white border-b-[1px] bg-black border-white w-full   text-xl font-javanese-text text-center mt-10' placeholder="Name" />
                             <input type="text" className=' email-input text-white border-b-[1px] bg-black border-white w-full   text-xl font-javanese-text text-center mt-10' placeholder="Email address" />
                             <input type="text" className=' email-input text-white border-b-[1px] bg-black border-white w-full  text-xl font-javanese-text text-center mt-10' placeholder="Message" />
-                            <button className=" h-8 max-md:h-12 px-4 py-4 bg-white rounded-[32px] justify-start items-center gap-4 inline-flex mt-10">
-                                <div className="text-center text-black text-lg max-lg:text-base max-md:text-sm font-normal font-['Jacques Francois']">Sign up for my Newsletter</div>
-                            </button>
+                            <a href='https://docs.google.com/forms/d/e/1FAIpQLScDVKjfqj6Vg3B1Tgg8mvEEX1ewuNSbLu3ADP2TYFp8E0LRjA/viewform?usp=sf_link' target='_blank' className=" h-8 max-md:h-12 px-4 py-6 bg-white rounded-[32px] justify-start items-center gap-4 inline-flex mt-10">
+                                <p className="text-center text-black text-lg max-lg:text-base max-md:text-sm font-normal font-['Jacques Francois']">Sign up for my Newsletter</p>
+                            </a>
                         </form>
                     </div>
                 </div>
