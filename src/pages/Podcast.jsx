@@ -29,6 +29,7 @@ const Podcast = () => {
             setCount(count + 1);
         }
     };
+
     useEffect(() => {
         let lastScrollX;
         // if (process.browser) {
@@ -49,7 +50,6 @@ const Podcast = () => {
     const query = '?si=19ead6af4eca442c'
     return (
         <div className='min-h-screen w-full p-0'>
-             
             <div style={{ backgroundImage: `url(${BackgroundImage})` }}
                 className="bg-cover bg-center h-[15rem] w-full relative">
                {nav && <div className='w-full h-full flex items-center justify-center absolute'>
@@ -233,4 +233,4 @@ const Podcast = () => {
     )
 }
 
-export default Podcast
+export default Podcast;
