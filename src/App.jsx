@@ -13,6 +13,7 @@ import Marketing from './pages/Marketing';
 import ContentCreation from './pages/ContentCreation';
 import MediaProduction from './pages/MediaProduction';
 import Gallery from './pages/Gallery';
+import BackyardRav from './pages/BackyardRav';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
        <Route path="/content" element={<ContentCreation />} />
        <Route path="/media" element={<MediaProduction />} />
        <Route path="/gallery" element={<Gallery />} />
+       <Route path="/backyardrave" element={<BackyardRav />} />
      </Routes>
    </Router>
     </>
