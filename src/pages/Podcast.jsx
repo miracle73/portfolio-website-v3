@@ -68,7 +68,7 @@ const Podcast = () => {
                 <p className=" text-white text-lg max-lg:text-base max-md:text-sm font-normal font-['Poppins'] mt-5 px-10">Listen to my latest podcast </p>
                 <p className=" text-white text-[32px] max-lg:text-2xl max-md:text-xl font-normal font-['Poppins'] mt-10 px-10">Thoughtful Randomness</p>
                 <div className='flex flex-col items-center justify-between gap-4 relative px-7'>
-                    <div className='w-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide' >
+                    {/* <div className='w-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide' >
                         <Link to='https://open.spotify.com/episode/3nNsUYLVcAR4fOMRl2mOac?si=a6cfc6f7c211472b' target='_blank' id="sliderItem" className='w-[30%] max-lg:w-[35%] max-sm:w-[55%] max-xsm:w-[65%] relative overflow-hidden shadow-md pb-2 rounded-md hover:cursor-pointer inline-block hover:scale-105 ease-in-out duration-300 mx-3'>
                             <div className=" bg-cover  h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${BJB1})` }}>
                                 <div className="text-white text-[16px] max-lg:text-sm max-md:text-xs font-normal font-['Poppins']">Thoughtful Randomness is Back!!!</div>
@@ -109,8 +109,8 @@ const Podcast = () => {
                                 <div className=" text-white text-[16px] max-lg:text-sm max-md:text-xs font-normal font-['Poppins']">Udoka Odigbor</div>
                             </div>
                         </Link>
-                    </div>
-                    {/* <a href="https://podcasts.apple.com/us/podcast/thoughtful-randomness/id1615584635" target='_blank' className="text-white font-bold max-lg:text-base max-md:text-sm font-['Poppins'] mt-5">Apple Podcast</a>
+                    </div> */}
+                  
                     <div className='w-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide' >
                         <Link to='https://podcasts.apple.com/us/podcast/chapter-00-thoughtful-randomness-is-back/id1615584635?i=1000554868353' target='_blank' id="sliderItem" className='w-[30%] max-lg:w-[35%] max-sm:w-[55%] max-xsm:w-[65%] relative overflow-hidden shadow-md pb-2 rounded-md hover:cursor-pointer inline-block hover:scale-105 ease-in-out duration-300 mx-3'>
                             <div className=" bg-cover  h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${BJB1})` }}>
@@ -147,7 +147,7 @@ const Podcast = () => {
                                 <div className=" text-white text-[16px] max-lg:text-sm max-md:text-xs font-normal font-['Poppins']">Udoka Odigbor</div>
                             </div>
                         </Link>
-                    </div> */}
+                    </div>
                 </div>
                 <p className=" text-white text-[32px] max-lg:text-2xl max-md:text-xl font-normal font-['Poppins'] mt-10 px-10">Wait, Hear us Out!</p>
                 <div className='flex items-center justify-between relative px-7 '>
