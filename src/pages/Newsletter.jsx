@@ -29,14 +29,14 @@ const Newsletter = () => {
                 </div>
                 <div className='  my-10 w-full'>
                     <div className='flex items-center gap-12 max-sm:flex-col max-sm:gap-2 justify-center max-sm:mx-0 mx-10'>
-                        <Link to='https://opinionsandwhatever.substack.com' target='_blank' className='w-[30%]  h-full   max-sm:w-[90%] max-sm:mx-auto shadow-md  '>
+                        <Link to='https://opinionsandwhatever.substack.com' target='_blank' className='w-[45%]  h-full   max-sm:w-[80%] max-sm:mx-auto shadow-md  '>
                             <div style={{ backgroundImage: `url(${FirstImage})` }} className=" bg-cover hover:cursor-pointer h-56 flex ">
                             </div>
                             <div className='flex items-center justify-center  hover:cursor-pointer h-10 bg-white ' >
                                 <div className="text-black hover:text-[#D6D6D6] text-sm font-semibold   text-center uppercase">Opinions & Whatever!</div>
                             </div>
                         </Link>
-                        <Link to="https://marketingmentions.substack.com" target='_blank' className='w-[30%]  h-full max-sm:w-[90%] max-sm:mx-auto shadow-md '>
+                        <Link to="https://marketingmentions.substack.com" target='_blank' className='w-[45%]  h-full max-sm:w-[80%] max-sm:mx-auto  shadow-md '>
                             <div style={{ backgroundImage: `url(${SecondImage})` }} className="  bg-cover hover:cursor-pointer  h-56 flex ">
                             </div>
                             <div className='flex items-center justify-center h-10 hover:cursor-pointer bg-white ' >

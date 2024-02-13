@@ -3,18 +3,13 @@ import BackgroundImage from '../assets/images/background-image.jpg'
 import NavLinks from '../components/NavLinks'
 import HomeIcon from '../assets/images/podcast.png'
 import obianuju from '../assets/images/obianuju.jpg';
-import podcast1 from '../assets/images/obianuju.jpg';
 import anxiety from '../assets/images/anxiety.jpg';
 import podcast3 from '../assets/images/podcast3.jpg';
 import idahosa from '../assets/images/idahosa.jpg';
-import Questions from '../assets/images/Questions.jpg'
 import towhom from '../assets/images/towhom.jpg';
 import Udoka from '../assets/images/Udoka.jpg';
 import Apple from '../assets/images/applepodcasts.png'
-import Youtube from '../assets/images/youtube.png'
 import Spotify from '../assets/images/spotify.png'
-import Google from '../assets/images/google-podcast.png'
-import SoundCloud from '../assets/images/soundcard.png'
 import Footer from '../components/Footer'
 import MobileNav from '../components/MobileNav'
 import BJB1 from '../assets/images/BJB1.jpg'
@@ -52,7 +47,7 @@ const Podcast = () => {
         <div className='min-h-screen w-full p-0'>
             <div style={{ backgroundImage: `url(${BackgroundImage})` }}
                 className="bg-cover bg-center h-[15rem] w-full relative">
-               {nav && <div className='w-full h-full flex items-center justify-center absolute'>
+                {nav && <div className='w-full h-full flex items-center justify-center absolute'>
                     <MobileNav setNav={setNav} />
                 </div>}
                 {!nav && <div className='lg:pt-10 max-lg:pt-14 max-md:pt-5 max-md:flex max-md:items-center max-md:justify-end max-md:pr-10 '>
@@ -110,7 +105,7 @@ const Podcast = () => {
                             </div>
                         </Link>
                     </div> */}
-                  
+
                     <div className='w-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide' >
                         <Link to='https://podcasts.apple.com/us/podcast/chapter-00-thoughtful-randomness-is-back/id1615584635?i=1000554868353' target='_blank' id="sliderItem" className='w-[30%] max-lg:w-[35%] max-sm:w-[55%] max-xsm:w-[65%] relative overflow-hidden shadow-md pb-2 rounded-md hover:cursor-pointer inline-block hover:scale-105 ease-in-out duration-300 mx-3'>
                             <div className=" bg-cover  h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${BJB1})` }}>
@@ -152,10 +147,10 @@ const Podcast = () => {
                 <p className=" text-white text-[32px] max-lg:text-2xl max-md:text-xl font-normal font-['Poppins'] mt-10 px-10">Wait, Hear us Out!</p>
                 <div className='flex items-center justify-between relative px-7 '>
                     <div className='w-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide' >                        <Link to="https://open.spotify.com/episode/2FlbUmqOORINgqvoZrp7bV?si=90caf0b814b743cb" target='_blank' id="sliderItem" className='w-[30%] max-lg:w-[35%] max-sm:w-[55%] max-xsm:w-[65%] relative overflow-hidden shadow-md pb-2 rounded-md hover:cursor-pointer inline-block hover:scale-105 ease-in-out duration-300 mx-3'>
-                            <div className=" bg-cover hover:cursor-pointer  h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${podcast3})` }}>
-                                <div className=" text-white text-[16px] max-lg:text-sm max-md:text-xs font-normal font-['Poppins']">The Genesis - How it started</div>
-                            </div>
-                        </Link>
+                        <div className=" bg-cover hover:cursor-pointer  h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${podcast3})` }}>
+                            <div className=" text-white text-[16px] max-lg:text-sm max-md:text-xs font-normal font-['Poppins']">The Genesis - How it started</div>
+                        </div>
+                    </Link>
                     </div>
                 </div>
             </div>
@@ -208,13 +203,16 @@ const Podcast = () => {
             </div> */}
             <div className='py-20 max-md:py-14 max-sm:py-10 bg-black flex flex-col justify-center items-center '>
                 <div className="text-center text-white text-[16px] max-lg:text-sm  w-[50%] max-md:w-[70%] max-sm:w-[90%] font-normal font-['Poppins'] ">Subscribe and listen on every major platform<br />My podcast is available on a growing number of platforms. Listen on your preferred app to get the best experience.</div>
-                <div className='flex flex-wrap justify-around items-center w-[40%] max-md:w-[70%] max-sm:w-[100%]  mt-10'>
+                <div className='flex justify-center gap-12 items-center w-[40%] max-md:w-[70%] max-sm:w-[100%]  mt-10'>
 
-                    <img className="w-10 h-10" src={Apple} />
-                    <img className="w-10 h-10" src={Youtube} />
-                    <img className="w-10 h-10" src={Spotify} />
-                    <img className="w-10 h-10" src={Google} />
-                    <img className="w-10 h-10" src={SoundCloud} />
+                    <Link to="https://podcasts.apple.com/us/podcast/thoughtful-randomness/id1615584635">
+                        <img className="w-10 h-10" src={Apple} />
+                    </Link>
+
+                    <Link to="https://open.spotify.com/show/3T60alD2U90Mn2YgtMnyYS">
+                        <img className="w-10 h-10" src={Spotify} />
+                    </Link>
+
                 </div>
             </div>
             <div className='flex flex-col justify-center items-center bg-black border-t-[1px] border-white'>

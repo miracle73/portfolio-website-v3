@@ -1,16 +1,14 @@
 import React, { useState } from 'react'
 import '../App.css'
 import BackgroundImage from '../assets/images/background-image.jpg'
-import BJ2 from '../assets/images/BJ2.jpg';
-import BJ3 from '../assets/images/BJ3.jpg';
-import BJ4 from '../assets/images/BJ4.jpg';
+import idahosa from '../assets/images/idahosa.jpg';
 import HomeIcon from '../assets/images/home-icon.png'
-// import FirstImage from '../assets/images/money.jpg'
-// import SecondImage from '../assets/images/problem-solving.jpg'
-// import ThirdImage from '../assets/images/love.jpg'
+import anxiety from '../assets/images/anxiety.jpg';
+import podcast3 from '../assets/images/podcast3.jpg';
 import NavLinks from '../components/NavLinks'
 import Footer from '../components/Footer'
 import MobileNav from '../components/MobileNav'
+import BJB1 from '../assets/images/BJB1.jpg'
 
 
 const HomePage = () => {
@@ -32,7 +30,7 @@ const HomePage = () => {
         </div>
 
       </div>
-      <div className=" h-[30rem] w-full flex flex-col justify-center items-center bg-black max-md:pt-32 max-sm:pt-40">
+      <div className=" h-[30rem] max-md:h-[25rem] max-sm:h-[20rem] w-full flex flex-col justify-center items-center bg-black max-md:pt-32 max-sm:pt-40">
         <div><img src={HomeIcon} className='max-md:w-14 max-md:h-14 max-sm:w-10 max-sm:h-10' /></div>
         <div className='flex justify-center items-center'>
           <p className=' text-center text-white mt-10 max-sm:mt-3 max-md:mt-5 px-10 w-[70%] max-sm:w-[100%] leading-8'>
@@ -44,18 +42,18 @@ const HomePage = () => {
       <div className=" text-white bg-black text-[32px] max-lg:text-2xl max-md:text-xl  font-normal font-['Poppins'] px-10 max-md:pt-40">Listen to my latest podcasts</div>
       <div className='flex max-sm:flex-col max-sm:gap-4 justify-between items-center bg-black py-10 px-10'>
         <a href='https://podcasts.apple.com/us/podcast/thoughtful-randomness/id1615584635' target='_blank' className='w-[30%] h-60 max-sm:w-[90%] max-sm:mx-auto shadow-2xl  hover:cursor-pointer '>
-          <div className=" mb-5 bg-cover h-full  flex hover:bg-blend-multiply hover:bg-gray-500 items-end pb-2 hover:pb-4 justify-center" style={{ backgroundImage: `url(${BJ2})` }}>
-            <div className="text-white text-xl max-lg:text-base  font-semibold text-center font-['Poppins']">Thoughtful Randomness - Apple Podcast</div>
+          <div className=" mb-5 bg-cover h-full  flex hover:bg-blend-multiply hover:bg-gray-500 items-end pb-2 hover:pb-4 justify-center" style={{ backgroundImage: `url(${BJB1})` }}>
+            {/* <div className="text-white text-xl max-lg:text-base  font-semibold text-center font-['Poppins']">Thoughtful Randomness on Apple Podcast</div> */}
           </div>
         </a>
         <a href='https://open.spotify.com/show/3T60alD2U90Mn2YgtMnyYS?si=487cab7ab94d4c0d' target='_blank' className='w-[30%] h-60 max-sm:w-[90%] max-sm:mx-auto  shadow-md hover:cursor-pointer   '>
-          <div className="  mb-5 bg-cover hover:cursor-pointer  h-full flex hover:bg-blend-multiply items-end pb-2 hover:pb-4 justify-center hover:bg-gray-500" style={{ backgroundImage: `url(${BJ3})` }}>
-            <div className="text-white  text-xl max-lg:text-base  font-semibold text-center font-['Poppins']">Thoughtful Randomness - Spotify</div>
+          <div className="  mb-5 bg-cover hover:cursor-pointer  h-full flex hover:bg-blend-multiply items-end pb-2 hover:pb-4 justify-center hover:bg-gray-500" style={{ backgroundImage: `url(${idahosa})` }}>
+            {/* <div className="text-white  text-xl max-lg:text-base  font-semibold text-center font-['Poppins']">Thoughtful Randomness on Spotify</div> */}
           </div>
         </a>
         <a href='https://open.spotify.com/show/0cTcT0vGIViIEfRNafsSlC' target='_blank' className='w-[30%] h-60 max-sm:w-[90%] max-sm:mx-auto shadow-md hover:cursor-pointer   '>
-          <div className=" mb-5 bg-cover hover:cursor-pointer h-full flex hover:bg-blend-multiply hover:bg-gray-500 items-end pb-2 hover:pb-4 justify-center" style={{ backgroundImage: `url(${BJ4})` }}>
-            <div className="text-white text-xl max-lg:text-base  font-semibold  text-center font-['Poppins']">Wait, Hear us Out!</div>
+          <div className=" mb-5 bg-cover hover:cursor-pointer h-full flex hover:bg-blend-multiply hover:bg-gray-500 items-end pb-2 hover:pb-4 justify-center" style={{ backgroundImage: `url(${podcast3})` }}>
+            {/* <div className="text-white text-xl max-lg:text-base  font-semibold  text-center font-['Poppins']">Wait, Hear us Out!</div> */}
           </div>
         </a>
       </div>
