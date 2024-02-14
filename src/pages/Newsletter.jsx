@@ -40,7 +40,7 @@ const Newsletter = () => {
                             <div style={{ backgroundImage: `url(${SecondImage})` }} className="  bg-cover hover:cursor-pointer  h-56 flex ">
                             </div>
                             <div className='flex items-center justify-center h-10 hover:cursor-pointer bg-white ' >
-                                <div className="text-black hover:text-[#D6D6D6]  text-sm font-semibold text-center uppercase">Marketing Mentions Africa</div>
+                                <div className="text-black hover:text-[#D6D6D6]  text-sm font-semibold text-center uppercase">Marketing Mentions Africa Cool </div>
                             </div>
                         </Link>
                     </div>
