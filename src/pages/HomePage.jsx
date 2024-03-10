@@ -16,12 +16,14 @@ const HomePage = () => {
   return (
     <div className='min-h-screen w-full p-0 relative'>
 
+      {nav && <div className='fixed w-full flex items-center justify-center z-10 bg-black'>
+        <MobileNav setNav={setNav} />
+      </div>}
+
       <div style={{ backgroundImage: `url(${BackgroundImage})` }}
         className="bg-cover bg-center h-[40rem] w-full max-md:flex max-md:flex-col relative">
 
-        {nav && <div className='w-full h-full flex items-center justify-center absolute'>
-          <MobileNav setNav={setNav} />
-        </div>}
+
         {!nav && <div className='lg:pt-10 max-lg:pt-14 max-md:pt-5 max-md:flex max-md:items-center max-md:justify-end max-md:pr-10 '>
           <NavLinks setNav={setNav} />
         </div>}
@@ -57,15 +59,16 @@ const HomePage = () => {
           </div>
         </a>
       </div>
-      <div className='bg-black pt-20'>
-        <div className=" text-center text-white text-[32px] max-lg:text-2xl max-md:text-xl  font-normal font-['Poppins'] max-md:px-10 ">Sign up for my Newsletter</div>
-        <div className=" text-center text-white text-lg max-lg:text-base max-md:text-sm  font-normal font-['Poppins'] mt-5 max-md:px-10">Sign up here to receive vital weekly messages directly from me.</div>
-        <form className='mt-20  flex flex-col justify-center items-center w-full'>
-          <input type="text" className=' email-input text-white border-b-[1px] bg-black border-white w-1/2 max-sm:w-3/4  text-xl font-javanese-text text-center' placeholder="Email address" />
-          <button className=" h-8 px-4 py-4 bg-white rounded-[32px] justify-start items-center gap-4 inline-flex mt-10">
-            <div className="text-center text-black text-lg max-lg:text-base max-md:text-sm  font-normal font-['Jacques Francois']">Sign up for my Newsletter</div>
-          </button>
-        </form>
+      <div className='bg-black pt-5'>
+        {/* <div className=" text-center text-white text-[32px] max-lg:text-2xl max-md:text-xl  font-normal font-['Poppins'] max-md:px-10 ">Click on the link below to fill a contact form</div>
+        <div className=" text-center text-white text-lg max-lg:text-base max-md:text-sm  font-normal font-['Poppins'] mt-5 max-md:px-10">So that you can receive vital messages directly from me.</div>
+        <form className='mt-5  flex flex-col justify-center items-center w-full'>
+       
+            <a href='https://docs.google.com/forms/d/e/1FAIpQLScDVKjfqj6Vg3B1Tgg8mvEEX1ewuNSbLu3ADP2TYFp8E0LRjA/viewform?usp=sf_link' target='_blank' className=" h-8 max-md:h-12 px-4 py-6 bg-white rounded-[32px] justify-start items-center gap-4 inline-flex mt-10">
+              <p className="text-center text-black text-lg max-lg:text-base max-md:text-sm font-normal font-['Jacques Francois']">Send me a message</p>
+            </a>
+       
+        </form> */}
         <Footer />
 
 
