@@ -73,6 +73,7 @@ const MediaProduction = () => {
                 </div>
                 <div className=' mt-10'>
                     <Footer />
+                    Cool
                 </div>
             </div>
         </div>
