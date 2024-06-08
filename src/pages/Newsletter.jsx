@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import '../App.css'
-import BackgroundImage from '../assets/images/background-image.jpg'
+import BackgroundImage from '../assets/images/back3.png'
 import FirstImage from '../assets/images/BJ11.jpeg'
 import SecondImage from '../assets/images/BJ12.jpeg'
 import NavLinks from '../components/NavLinks'

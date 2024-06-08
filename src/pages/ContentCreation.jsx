@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import BackgroundImage from '../assets/images/background-image.jpg'
+import BackgroundImage from '../assets/images/back3.png'
 import NavLinks from '../components/NavLinks'
 import firstImage from '../assets/images/content2.png'
 import firstIcon from '../assets/images/contentIcon.png'
@@ -51,7 +51,7 @@ const ContentCreation = () => {
 
                 </div>
                 <div className=" text-center text-white text-[32px] max-md:text-2xl max-sm:text-xl font-normal font-['Javanese Text'] mt-40 max-lg:mt-32 max-md:mt-24 max-sm:mt-18">What Type of Content Do I Create?</div>
-                <div className=" text-center text-white text-2xl max-md:text-xl max-sm:text-lg max-xsm:text-base font-medium font-['Inter'] mt-10 max-md:mt-7 max-sm:mt-4 max-md:px-5">My huge roster of talented writers execute on all types of written content.</div>
+                <div className=" text-center text-white text-2xl max-md:text-xl max-sm:text-lg max-xsm:text-base font-medium font-['Inter'] mt-10 max-md:mt-7 max-sm:mt-4 max-md:px-5">I write all types of written content.</div>
                 <div className='flex justify-between items-center max-sm:flex-col max-sm:gap-2 mt-10 max-md:mt-7 max-sm:mt-4 px-16 max-lg:px-10 max-md:px-5'>
                     <div className=" bg-neutral-900 h-80 max-sm:h-36  w-[33%] max-sm:w-[100%] flex flex-col justify-center items-start px-5">
             

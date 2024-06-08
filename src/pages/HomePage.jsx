@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import '../App.css'
-import BackgroundImage from '../assets/images/background-image.jpg'
+import BackgroundImage from '../assets/images/back.png'
 import idahosa from '../assets/images/idahosa.jpg';
 import HomeIcon from '../assets/images/home-icon.png'
 import anxiety from '../assets/images/anxiety.jpg';
@@ -21,7 +21,7 @@ const HomePage = () => {
       </div>}
 
       <div style={{ backgroundImage: `url(${BackgroundImage})` }}
-        className="bg-cover bg-center h-[40rem] w-full max-md:flex max-md:flex-col relative">
+        className="bg-cover bg-center h-[50rem] w-full max-md:flex max-md:flex-col relative">
 
 
         {!nav && <div className='lg:pt-10 max-lg:pt-14 max-md:pt-5 max-md:flex max-md:items-center max-md:justify-end max-md:pr-10 '>

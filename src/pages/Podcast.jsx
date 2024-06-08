@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import BackgroundImage from '../assets/images/background-image.jpg'
+import BackgroundImage from '../assets/images/back3.png'
 import NavLinks from '../components/NavLinks'
 import HomeIcon from '../assets/images/podcast.png'
 import obianuju from '../assets/images/obianuju.jpg';

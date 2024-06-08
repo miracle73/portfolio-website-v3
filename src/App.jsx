@@ -36,70 +36,71 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/podcast" element={
            <Suspense fallback={
-            <div className='min-h-screen bg-black text-white flex items-center justify-center'>
+
+            <div className='  text-xl font-bold min-h-screen bg-black text-white flex items-center justify-center'>
               Loading...</div>}>
             <LazyPodcast />
           </Suspense>
         } />
         <Route path="/contact" element={
            <Suspense fallback={
-            <div className='min-h-screen bg-black text-white flex items-center justify-center'>
+            <div className='text-xl font-bold min-h-screen bg-black text-white flex items-center justify-center'>
               Loading...</div>}>
             <LazyContact />
           </Suspense>
         } />
         <Route path="/newsletter" element={
           <Suspense fallback={
-            <div className='min-h-screen bg-black text-white flex items-center justify-center'>
+            <div className='text-xl font-bold min-h-screen bg-black text-white flex items-center justify-center'>
               Loading...</div>}>
             <LazyNewsletter />
           </Suspense>
         } />
         <Route path="/services" element={
            <Suspense fallback={
-            <div className='min-h-screen bg-black text-white flex items-center justify-center'>
+            <div className='text-xl font-bold min-h-screen bg-black text-white flex items-center justify-center'>
               Loading...</div>}>
             <LazyServices />
           </Suspense>
         } />
         <Route path="/events" element={
           <Suspense fallback={
-            <div className='min-h-screen bg-black text-white flex items-center justify-center'>
+            <div className='text-xl font-bold min-h-screen bg-black text-white flex items-center justify-center'>
               Loading...</div>}>
             <LazyEventHosting />
           </Suspense>
         } />
         <Route path="/marketing" element={
            <Suspense fallback={
-            <div className='min-h-screen bg-black text-white flex items-center justify-center'>
+            <div className='text-xl font-bold min-h-screen bg-black text-white flex items-center justify-center'>
               Loading...</div>}>
             <LazyMarketing />
           </Suspense>
         } />
         <Route path="/content" element={
            <Suspense fallback={
-            <div className='min-h-screen bg-black text-white flex items-center justify-center'>
+            <div className='text-xl font-bold min-h-screen bg-black text-white flex items-center justify-center'>
               Loading...</div>}>
             <LazyContentCreation />
           </Suspense>
         } />
         <Route path="/media" element={
           <Suspense fallback={
-            <div className='min-h-screen bg-black text-white flex items-center justify-center'>
+            <div className='text-xl font-bold min-h-screen bg-black text-white flex items-center justify-center'>
               Loading...</div>}>
             <LazyMediaProduction />
           </Suspense>
         } />
         <Route path="/gallery" element={
           <Suspense fallback={
-            <div className='min-h-screen bg-black text-white flex items-center justify-center'>
+            <div className='text-xl font-bold min-h-screen bg-black text-white flex items-center justify-center'>
               Loading...</div>}>
             <LazyGallery />
           </Suspense>
         } />
         <Route path="/backyardrave" element={
           <Suspense fallback={
-          <div className='min-h-screen bg-black text-white flex items-center justify-center'>
+          <div className='text-xl font-bold min-h-screen bg-black text-white flex items-center justify-center'>
             Loading...</div>}>
             <LazyBackyardRav />
           </Suspense>

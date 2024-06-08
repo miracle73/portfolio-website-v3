@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import BackgroundImage from '../assets/images/background-image.jpg'
+import BackgroundImage from '../assets/images/back3.png'
 import NavLinks from '../components/NavLinks'
 import '../App.css'
 import Phone from '../assets/images/phone.png'
