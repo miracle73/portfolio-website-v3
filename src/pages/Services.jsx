@@ -57,13 +57,7 @@ const Services = () => {
                         <Link to="/events" className=" text-white mt-5  hover:text-gray-300 text-[24px] max-lg:text-xl max-md:text-lg max-sm:text-sm font-semibold font-['Javanese Text']"> Keynote Speaker and Event Host
                         </Link>
                     </div>
-                    <div className='w-[25%] flex flex-col items-center'>
-
-                        <img src={secondImage} className='mt-5' />
-                        {/* <div className="truncate-text text-white text-[16px] max-lg:text-base max-md:text-sm max-sm:text-xs font-normal font-['Javanese Text'] mt-5">Need help with brainstorming and creating compelling content? I offer content strategy and scriptwriting services to keep your audience engaged.</div>
-                    */}
-                        <Link to="/content" className=" text-white text-[24px]  hover:text-gray-300 max-lg:text-xl max-md:text-lg max-sm:text-sm font-semibold font-['Javanese Text']">Content Creation</Link>
-                    </div>
+                  
                     <div className='w-[25%] flex flex-col items-center'>
 
                         <img src={thirdImage} className='mt-5' />

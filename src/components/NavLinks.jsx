@@ -12,8 +12,7 @@ const NavLinks = ({setNav}) => {
                     <Link to="/podcast"  className="text-center text-white text-xl max-xl:text-base max-lg:text-sm font-normal font-['Poppins']">PODCAST</Link>
                     <Link to="/services" className="text-center text-white text-xl max-xl:text-base max-lg:text-sm font-normal font-['Poppins']">EXPERTISE</Link>
                     <Link to="/gallery" className="text-center text-white text-xl max-xl:text-base max-lg:text-sm font-normal font-['Poppins']">GALLERY</Link> 
-                <Link to="/"   className="text-center text-white text-[32px] max-lg:text-lg font-normal tracking-[0.1em] font-['Poppins']">BJ Barango <br/>
-                 <span className="text-center text-white text-[20px] max-lg:text-base font-normal font-['Poppins'] tracking-[0em]">THE SHOWMAN</span></Link>
+                <Link to="/"   className="text-center text-white text-[32px] max-lg:text-lg font-normal tracking-[0.1em] font-['Poppins']">BJ Barango <br/></Link>
                     <Link to="/contact"  className="text-center text-white text-xl max-xl:text-base max-lg:text-sm font-normal font-['Poppins']">CONTACT</Link>
                     <Link to="/newsletter"  className="text-center text-white text-xl max-xl:text-base max-lg:text-sm font-normal font-['Poppins']">NEWSLETTER</Link>
                     <Link to="/backyardrave"  className="text-center text-white text-xl max-xl:text-base max-lg:text-sm font-normal font-['Poppins']">SHOP</Link>

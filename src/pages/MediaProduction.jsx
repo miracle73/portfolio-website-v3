@@ -71,7 +71,7 @@ const MediaProduction = () => {
 
                 <div className=" text-white text-center text-[32px] max-md:text-2xl max-sm:text-xl font-normal font-['Javanese Text'] px-16 mt-24 "> My Services include</div>
                 <div className='flex items-start justify-between px-16 max-lg:px-10 max-md:px-7 max-sm:px-4 mt-16 '>
-                    <div className='w-[33%] flex flex-col items-center'>
+                    <div className='w-[45%] flex flex-col items-center'>
                         <AiFillAudio className="text-white w-12 h-12" />
 
                         <div className=" text-white text-2xl max-lg:text-xl max-md:text-lg max-sm:text-base font-normal font-['Inter'] mt-5"> Audio Production </div>
@@ -79,19 +79,19 @@ const MediaProduction = () => {
                         </div>
 
                     </div>
-                    <div className='w-[33%] flex flex-col items-center'>
+                    <div className='w-[45%] flex flex-col items-center'>
                         <FaVideo className="text-white w-12 h-12" />
 
                         <div className=" text-white text-2xl max-lg:text-xl max-md:text-lg max-sm:text-base font-normal font-['Inter'] mt-5"> Video Production </div>
                         <div className=" text-white  text-center text-lg max-lg:text-base max-md:text-sm max-sm:text-xs font-light font-['Inter']"> From concept development to post-production, I offer comprehensive video production services for a variety of purposes, including promotional videos, short-form videos, and documentaries. Using visual storytelling, I bring your ideas to life on screen with creativity and precision. </div>
                     </div>
-                    <div className='w-[33%] flex flex-col items-center'>
+                    {/* <div className='w-[33%] flex flex-col items-center'>
                         <PiFilmSlateFill className="text-white w-12 h-12" />
                         <div className=" text-white text-2xl max-lg:text-xl max-md:text-lg max-sm:text-base font-normal font-['Inter'] mt-5"> TV/Film Production </div>
                         <div className=" text-white  text-center text-lg max-lg:text-base max-md:text-sm max-sm:text-xs font-light font-['Inter']"> My expertise in TV/Film production spans various genres, including commercials, short films, and documentaries. Whether you're looking to create captivating content for television, streaming platforms, or the big screen, my hands-on approach and attention to detail ensure that your project is executed flawlessly from start to finish.
 
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className=" text-center text-white text-[32px] max-md:text-2xl max-sm:text-xl font-normal font-['Javanese Text'] mt-32 max-lg:mt-32 max-md:mt-24 max-sm:mt-18 pb-10">Why Choose Me?</div>

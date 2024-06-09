@@ -12,7 +12,6 @@ import '../App.css'
 import { SlSocialDropbox } from "react-icons/sl";
 import { GiProgression } from "react-icons/gi";
 import { LiaProjectDiagramSolid } from "react-icons/lia";
-
 import { TbBrandSugarizer } from "react-icons/tb";
 import { GoFileMedia } from "react-icons/go";
 import { MdContentPaste } from "react-icons/md";
@@ -114,7 +113,7 @@ const Marketing = () => {
                             <SlSocialDropbox className="text-black w-12 h-12" />
                         </div>
 
-                        <div className=" text-white text-xl max-lg:text-lg max-md:text-base max-sm:text-sm  font-normal font-['Inter'] mt-5">  Social Media Management and Ad Campaigns  </div>
+                        <div className=" text-white text-xl max-lg:text-lg max-md:text-base max-sm:text-sm  font-normal font-['Inter'] mt-5">  Digital Marketing  </div>
                         {/* <div className=" text-white text-lg max-lg:text-base max-md:text-sm max-sm:text-xs font-light font-['Inter']">Understand how your customers interact across your sites and apps, throughout their entire lifecycle.</div> */}
 
                     </div>
@@ -148,7 +147,7 @@ const Marketing = () => {
                             <GiProgression className="text-black w-12 h-12" />
                         </div>
 
-                        <div className=" text-white text-2xl max-lg:text-xl max-md:text-lg max-sm:text-base font-normal font-['Inter'] mt-5"> Business Reviews and Feedback </div>
+                        <div className=" text-white text-2xl max-lg:text-xl max-md:text-lg max-sm:text-base font-normal font-['Inter'] mt-5"> Data Analytics </div>
 
                     </div>
                 </div>
