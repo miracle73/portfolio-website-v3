@@ -133,7 +133,7 @@ const Marketing = () => {
                             <img src={fourthImage} className='max-sm:w-6 max-md:w-8 max-lg:w-10 max-xsm:w-5' />
                         </div>
                         <div className=" text-white text-xl max-lg:text-lg max-md:text-base max-sm:text-sm   font-normal font-['Inter'] mt-5"> Digital PR </div>
-                        {/* <div className=" text-white text-lg max-lg:text-base max-md:text-sm max-sm:text-xs font-light font-['Inter']">Take action to optimize marketing performance with integrations across Google’s advertising and publisher tools.</div> */}
+
 
                     </div> <div className='w-[33%] flex flex-col items-center '>
                         <div className='w-16 h-16  max-md:w-12 max-md:h-12 max-sm:w-8 max-sm:h-8  rounded-full  bg-white items-center flex justify-center'>

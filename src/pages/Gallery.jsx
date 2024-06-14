@@ -37,12 +37,11 @@ const Gallery = () => {
                 <div className="text-white text-[32px] max-md:text-2xl max-sm:text-xl text-center py-10 font-normal font-['Podkova']">My Gallery</div>
                 <div className='flex justify-center flex-wrap items-center px-10 max-md:px-6 max-sm:px-4 '>
 
-                    {/* <div className='h-full'> */}
                     <img className="w-72 max-sm:w-40 max-xsm:w-28" src={BJ1} />
                     <img className="w-72 max-sm:w-40 max-xsm:w-28" src={BJ2} />
                     {/* <img className="w-72" src={BJ4} /> */}
                     <img className="w-72 max-sm:w-40 max-xsm:w-28" src={BJ5} />
-                    {/* </div> */}
+           
                     {/* <div className='h-full'> */}
                     {/* <img className="w-72" src={BJ6} /> */}
                     <img className="w-72 max-sm:w-40 max-xsm:w-28" src={BJ7} />
