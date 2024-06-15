@@ -114,8 +114,7 @@ const Marketing = () => {
                         </div>
 
                         <div className=" text-white text-xl max-lg:text-lg max-md:text-base max-sm:text-sm  font-normal font-['Inter'] mt-5">  Digital Marketing  </div>
-                        {/* <div className=" text-white text-lg max-lg:text-base max-md:text-sm max-sm:text-xs font-light font-['Inter']">Understand how your customers interact across your sites and apps, throughout their entire lifecycle.</div> */}
-
+               
                     </div>
                     <div className='w-[33%] flex flex-col items-center'>
                         <div className='w-16 h-16 max-md:w-12 max-md:h-12 max-sm:w-8 max-sm:h-8 rounded-full  bg-white items-center flex justify-center'>

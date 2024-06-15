@@ -95,11 +95,7 @@ const Podcast = () => {
                                 <div className=" text-white text-[16px] max-lg:text-sm max-md:text-xs font-normal font-['Poppins']">Obianuju Asika</div>
                             </div>
                         </Link>
-                        <Link to="https://open.spotify.com/episode/0ynuo84RlsgCFOeL0wO1DP?si=37f61b88e43c4e4a" target='_blank' id="sliderItem" className='w-[30%] max-lg:w-[35%] max-sm:w-[55%] max-xsm:w-[65%] relative overflow-hidden shadow-md pb-2 rounded-md hover:cursor-pointer inline-block hover:scale-105 ease-in-out duration-300 mx-3'>
-                            <div className=" bg-cover hover:cursor-pointer h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${podcast1})` }}>
-                                <div className=" text-white text-[16px] max-lg:text-sm max-md:text-xs font-normal font-['Poppins']">Fatherhood</div>
-                            </div>
-                        </Link>
+                      
                         <Link to="https://open.spotify.com/episode/3ZreEewiWw5TILt8oFpHsr?si=c837eef871ef40f6" target='_blank' id="sliderItem" className='w-[30%] max-lg:w-[35%] max-sm:w-[55%] max-xsm:w-[65%] relative overflow-hidden shadow-md pb-2 rounded-md hover:cursor-pointer inline-block hover:scale-105 ease-in-out duration-300 mx-3'>
                             <div className=" bg-cover hover:cursor-pointer h-56 flex hover:bg-blend-multiply hover:bg-gray-500 justify-center items-end pb-2 hover:pb-4" style={{ backgroundImage: `url(${Udoka})` }}>
                                 <div className=" text-white text-[16px] max-lg:text-sm max-md:text-xs font-normal font-['Poppins']">Udoka Odigbor</div>
