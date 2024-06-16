@@ -50,7 +50,7 @@ const HomePage = () => {
         </a>
         <a href='https://open.spotify.com/show/3T60alD2U90Mn2YgtMnyYS?si=487cab7ab94d4c0d' target='_blank' className='w-[30%] h-60 max-sm:w-[90%] max-sm:mx-auto  shadow-md hover:cursor-pointer   '>
           <div className="  mb-5 bg-cover hover:cursor-pointer  h-full flex hover:bg-blend-multiply items-end pb-2 hover:pb-4 justify-center hover:bg-gray-500" style={{ backgroundImage: `url(${idahosa})` }}>
-            {/* <div className="text-white  text-xl max-lg:text-base  font-semibold text-center font-['Poppins']">Thoughtful Randomness on Spotify</div> */}
+
           </div>
         </a>
         <a href='https://open.spotify.com/show/0cTcT0vGIViIEfRNafsSlC' target='_blank' className='w-[30%] h-60 max-sm:w-[90%] max-sm:mx-auto shadow-md hover:cursor-pointer   '>
