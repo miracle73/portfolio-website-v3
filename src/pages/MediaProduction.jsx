@@ -61,7 +61,6 @@ const MediaProduction = () => {
                 <div className='flex items-start justify-between px-16 max-lg:px-10 max-md:px-7 max-sm:px-4 mt-10 '>
                     <div className=' w-full '>
                         <div className=" text-white text-[32px] max-sm:text-2xl font-normal font-['Javanese Text']"> Media  Production </div>
-                        {/* <img src={firstImage} className='mt-5 w-full h-96 max-lg:h-86 max-md:72 max-sm:h-64 object-cover' /> */}
                         <div className=" text-white text-[20px] max-sm:text-sm font-normal font-['Javanese Text'] mt-5"> With over 15 years of experience in Radio Broadcasting, Advertising, Audio Production, video production, and TV/Film production, I bring a wealth of expertise and creativity to every project I undertake. My media and content production services are tailored to meet the unique needs of my clients.
                         </div>
 

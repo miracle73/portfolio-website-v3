@@ -45,7 +45,7 @@ const HomePage = () => {
       <div className='flex max-sm:flex-col max-sm:gap-4 justify-between items-center bg-black py-10 px-10'>
         <a href='https://podcasts.apple.com/us/podcast/thoughtful-randomness/id1615584635' target='_blank' className='w-[30%] h-60 max-sm:w-[90%] max-sm:mx-auto shadow-2xl  hover:cursor-pointer '>
           <div className=" mb-5 bg-cover h-full  flex hover:bg-blend-multiply hover:bg-gray-500 items-end pb-2 hover:pb-4 justify-center" style={{ backgroundImage: `url(${BJB1})` }}>
-            {/* <div className="text-white text-xl max-lg:text-base  font-semibold text-center font-['Poppins']">Thoughtful Randomness on Apple Podcast</div> */}
+           
           </div>
         </a>
         <a href='https://open.spotify.com/show/3T60alD2U90Mn2YgtMnyYS?si=487cab7ab94d4c0d' target='_blank' className='w-[30%] h-60 max-sm:w-[90%] max-sm:mx-auto  shadow-md hover:cursor-pointer   '>
