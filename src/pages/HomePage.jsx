@@ -60,8 +60,7 @@ const HomePage = () => {
         </a>
       </div>
       <div className='bg-black pt-5'>
-        {/* <div className=" text-center text-white text-[32px] max-lg:text-2xl max-md:text-xl  font-normal font-['Poppins'] max-md:px-10 ">Click on the link below to fill a contact form</div>
-        <div className=" text-center text-white text-lg max-lg:text-base max-md:text-sm  font-normal font-['Poppins'] mt-5 max-md:px-10">So that you can receive vital messages directly from me.</div>
+        {/* 
         <form className='mt-5  flex flex-col justify-center items-center w-full'>
        
             <a href='https://docs.google.com/forms/d/e/1FAIpQLScDVKjfqj6Vg3B1Tgg8mvEEX1ewuNSbLu3ADP2TYFp8E0LRjA/viewform?usp=sf_link' target='_blank' className=" h-8 max-md:h-12 px-4 py-6 bg-white rounded-[32px] justify-start items-center gap-4 inline-flex mt-10">
