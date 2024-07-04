@@ -47,7 +47,7 @@ const Gallery = () => {
                     <img className="w-72 max-sm:w-40 max-xsm:w-28" src={BJ9} />
                     <img className="w-72 max-sm:w-40 max-xsm:w-28" src={BJ10} />
                     <img className="w-72 max-sm:w-40 max-xsm:w-28" src={BJ3} />
-                    {/* </div> */}
+                   
             
                     {/* <div className='h-full'>
                         <img className="" src={BJ1} />

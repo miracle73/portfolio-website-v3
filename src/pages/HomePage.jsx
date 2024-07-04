@@ -55,7 +55,7 @@ const HomePage = () => {
         </a>
         <a href='https://open.spotify.com/show/0cTcT0vGIViIEfRNafsSlC' target='_blank' className='w-[30%] h-60 max-sm:w-[90%] max-sm:mx-auto shadow-md hover:cursor-pointer   '>
           <div className=" mb-5 bg-cover hover:cursor-pointer h-full flex hover:bg-blend-multiply hover:bg-gray-500 items-end pb-2 hover:pb-4 justify-center" style={{ backgroundImage: `url(${podcast3})` }}>
-            {/* <div className="text-white text-xl max-lg:text-base  font-semibold  text-center font-['Poppins']">Wait, Hear us Out!</div> */}
+          
           </div>
         </a>
       </div>
