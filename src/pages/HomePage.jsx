@@ -3,7 +3,6 @@ import '../App.css'
 import BackgroundImage from '../assets/images/back.png'
 import idahosa from '../assets/images/idahosa.jpg';
 import HomeIcon from '../assets/images/home-icon.png'
-import anxiety from '../assets/images/anxiety.jpg';
 import podcast3 from '../assets/images/podcast3.jpg';
 import NavLinks from '../components/NavLinks'
 import Footer from '../components/Footer'

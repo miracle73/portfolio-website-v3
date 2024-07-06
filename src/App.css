@@ -12,7 +12,7 @@
 
  .truncate-text {
   display: -webkit-box;
-  -webkit-line-clamp: 4; /* adjust as needed */
+  -webkit-line-clamp: 4; 
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
